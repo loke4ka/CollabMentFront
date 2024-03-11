@@ -2,7 +2,7 @@ import { FunctionComponent, useState } from "react";
 import styles from "./LoginRegister.module.css";
 import stylesAnimation from "../components/globalAnimations.module.css";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { Link, redirect  } from "react-router-dom";
 
 const API_URL = 'https://loke4ka.pythonanywhere.com/api/login';
 
@@ -34,7 +34,7 @@ const LoginRegister: FunctionComponent = () => {
         console.log('Data saved to localStorage:', localStorage.getItem('username'), localStorage.getItem('userToken'));
 
         // window.location.href = '/profile' + `/${username}`;
-        return <Link to={'/profile' + `/${username}`} />
+        return redirect('/profile' + `/${username}`);
 
       } else {
         console.log('Authentication failed');
