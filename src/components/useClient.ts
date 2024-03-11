@@ -35,7 +35,6 @@ export const useClient = ({
           console.log('connection closed');
         });
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- should re-run only if user.id changes
   }, [apiKey, user.id, tokenOrProvider]);
 
   return chatClient;
