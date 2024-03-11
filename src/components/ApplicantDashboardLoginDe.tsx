@@ -1,7 +1,7 @@
 import { FunctionComponent, useEffect, useState } from "react";
 import styles from "./ApplicantDashboardLoginDe.module.css";
 
-const API_URL = 'http://127.0.0.1:8000/api/user/profile';
+const API_URL = 'https://loke4ka.pythonanywhere.com/api/user/profile';
 
 const getUserData = async (username: any) => {
   try {

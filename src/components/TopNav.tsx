@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./TopNav.module.css";
+import { Link } from "react-router-dom";
 
 const username = localStorage.getItem('username');
 
@@ -10,7 +11,7 @@ const TopNav: FunctionComponent = () => {
       <h1 className={styles.settings}>Settings</h1>
       <div className={styles.personalDetails}>
         <button className={styles.button}>
-          <a href={"/profile/" + username}><div className={styles.backToHomepage}>Back to homepage</div> </a>
+          <Link to={"/profile/" + username}><div className={styles.backToHomepage}>Back to homepage</div> </Link>
         </button>
         <img
           className={styles.notificationIcon}

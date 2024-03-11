@@ -3,11 +3,12 @@ import SideBarDashboardApplica1 from "../components/SideBarDashboardApplica1";
 import TopNav from "../components/TopNav";
 import styles from "./DashboardSettingsAccount1.module.css";
 import stylesAnimation from "../components/globalAnimations.module.css";
+import { Link } from "react-router-dom";
 
 const username = localStorage.getItem('username');
 
-const API_URLUpdate = 'http://127.0.0.1:8000/api/profile/update/';
-const API_URL = 'http://127.0.0.1:8000/api/user/profile';
+const API_URLUpdate = 'https://loke4ka.pythonanywhere.com/api/profile/update/';
+const API_URL = 'https://loke4ka.pythonanywhere.com/api/user/profile';
 
 interface ProfileData {
   professional_field: string;
@@ -249,23 +250,23 @@ const DashboardSettingsAccount1: FunctionComponent = () => {
           <TopNav />
           <div className={styles.textfieldDesiredposition}>
             <div className={styles.tabs}>
-              <a className={stylesAnimation.NavLinkSettings} href="/MyProfile">
+              <Link className={stylesAnimation.NavLinkSettings} to="/MyProfile">
 
               <div className={styles.tabMenu}>
                 <div className={styles.caption}>My Profile</div>
               </div>
-              </a>
-              <a className={stylesAnimation.NavLinkSettings} href="/dash-personal">
+              </Link>
+              <Link className={stylesAnimation.NavLinkSettings} to="/dash-personal">
 
                 <div className={styles.personalInformation}>
                   Personal information
                 
               </div>
-              </a>
-              <a className={stylesAnimation.NavLinkSettings} href="/login-details">
+              </Link>
+              <Link className={stylesAnimation.NavLinkSettings} to="/login-details">
 
               <div className={styles.loginDetails}>Login Details</div>
-              </a>
+              </Link>
               <div className={styles.tabMenu2}>
                 <div className={styles.caption1}>Notifications</div>
               </div>

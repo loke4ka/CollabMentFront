@@ -2,14 +2,15 @@ import { FunctionComponent, useEffect, useState } from "react";
 import styles from "./Navigation1.module.css";
 import stylesAnimation from "../components/globalAnimations.module.css";
 
+import { Link } from 'react-router-dom';
 
 interface UserData {
   username: string;
   profile_photo?: string;
 }
 
-const API_URL = 'http://127.0.0.1:8000/api/user/profile';
-const Url = 'http://127.0.0.1:8000/';
+const API_URL = 'https://loke4ka.pythonanywhere.com/api/user/profile';
+const Url = 'https://loke4ka.pythonanywhere.com/';
 
 const Navigation1: FunctionComponent = () => {
 
@@ -65,27 +66,27 @@ const Navigation1: FunctionComponent = () => {
         <div className={styles.like}>
           <div className={styles.items}>
             <div className={styles.statistics}>
-              <a href="/feed" className={stylesAnimation.NavLink}>
+              <Link to="/feed" className={stylesAnimation.NavLink}>
               <div className={styles.active}>
                 <div className={styles.activeChild} />
                 <div className={styles.activeItem} />
                 <img className={styles.rssIcon} alt="" src="/rss.svg" />
                 <div className={styles.feed}>feed</div>
               </div>
-              </a>
+              </Link>
 
-              <a href="/feed" className={stylesAnimation.NavLink}>
+              <Link to="/feed" className={stylesAnimation.NavLink}>
               <div className={styles.disable}>
 
                 <div className={styles.disableChild} />
                 <img className={styles.rssIcon1} alt="" src="/rss-1.svg" />
                 <div className={styles.feed1}>feed</div>
               </div>
-              </a>
+              </Link>
 
             </div>
             <div className={styles.statistics1}>
-            <a href="/network" className={stylesAnimation.NavLink}>
+            <Link to="/network" className={stylesAnimation.NavLink}>
 
               <div className={styles.active1}>
                 <div className={styles.activeInner} />
@@ -93,17 +94,17 @@ const Navigation1: FunctionComponent = () => {
                 <img className={styles.usersIcon} alt="" src="/users.svg" />
                 <div className={styles.network}>Network</div>
               </div>
-              </a>
-              <a href="/network" className={stylesAnimation.NavLink}>
+              </Link>
+              <Link to="/network" className={stylesAnimation.NavLink}>
               <div className={styles.disable1}>
                 <div className={styles.disableItem} />
                 <img className={styles.usersIcon1} alt="" src="/users-1.svg" />
                 <div className={styles.network1}>Network</div>
               </div>
-              </a>
+              </Link>
             </div>
             <div className={styles.statistics2}>
-            <a href="/network" className={stylesAnimation.NavLink}>
+            <Link to="/network" className={stylesAnimation.NavLink}>
               <div className={styles.active2}>
                 <div className={styles.activeChild1} />
                 <div className={styles.activeChild2} />
@@ -114,8 +115,8 @@ const Navigation1: FunctionComponent = () => {
                 />
                 <div className={styles.jobs}>jobs</div>
               </div>
-              </a>
-              <a href="/network" className={stylesAnimation.NavLink}>
+              </Link>
+              <Link to="/network" className={stylesAnimation.NavLink}>
 
               <div className={styles.disable2}>
                 <div className={styles.disableInner} />
@@ -126,10 +127,10 @@ const Navigation1: FunctionComponent = () => {
                 />
                 <div className={styles.jobs1}>jobs</div>
               </div>
-              </a>
+              </Link>
             </div>
             <div className={styles.statistics3}>
-            <a href="/chat" className={stylesAnimation.NavLink}>
+            <Link to="/chat" className={stylesAnimation.NavLink}>
 
               <div className={styles.disable3}>
                 <div className={styles.disableChild1} />
@@ -141,8 +142,8 @@ const Navigation1: FunctionComponent = () => {
                 />
                 <div className={styles.chat}>chat</div>
               </div>
-              </a>
-              <a href="/chat" className={stylesAnimation.NavLink}>
+              </Link>
+              <Link to="/chat" className={stylesAnimation.NavLink}>
 
               <div className={styles.active3}>
                 <div className={styles.activeChild3} />
@@ -154,14 +155,14 @@ const Navigation1: FunctionComponent = () => {
                 />
                 <div className={styles.chat1}>chat</div>
               </div>
-              </a>
+              </Link>
               <div className={styles.count}>
                 <div className={styles.rectangle1} />
                 <b className={styles.b}>1</b>
               </div>
             </div>
             <div className={styles.statistics4}>
-            <a href="/notices" className={stylesAnimation.NavLink}>
+            <Link to="/notices" className={stylesAnimation.NavLink}>
 
               <div className={styles.disable4}>
                 <div className={styles.disableChild2} />
@@ -173,15 +174,15 @@ const Navigation1: FunctionComponent = () => {
                 />
                 <div className={styles.notices}>notices</div>
               </div>
-              </a>
-              <a href="/notices" className={stylesAnimation.NavLink}>
+              </Link>
+              <Link to="/notices" className={stylesAnimation.NavLink}>
               <div className={styles.active4}>
                 <div className={styles.activeChild5} />
                 <div className={styles.activeChild6} />
                 <img className={styles.bellIcon1} alt="" src="/bell-1.svg" />
                 <div className={styles.notices1}>notices</div>
               </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -229,7 +230,7 @@ const Navigation1: FunctionComponent = () => {
             <div className={styles.likeFrame}>
 
               <div className={styles.shareFrame}>
-                <a href={"/profile/" + usernameLocal} className={stylesAnimation.ProfileLink}>
+                <Link to={"/profile/" + usernameLocal} className={stylesAnimation.ProfileLink}>
               {usernameLocal && (
                   <div className={styles.usernameContainer}>
                     <div className={styles.aGazizova}>{usernameLocal}</div>
@@ -239,7 +240,7 @@ const Navigation1: FunctionComponent = () => {
                     {/* <div className={styles.aGazizova}>{usernameLocal}</div> */}
                   </div>
                 )}
-                  </a>
+                  </Link>
                 {/* <div className={styles.aGazizova}>A. Gazizova</div> */}
                 <div className={styles.you}>YOU</div>
               </div>
@@ -258,7 +259,7 @@ const Navigation1: FunctionComponent = () => {
                   alt=""
                   src="/morehorizontal.svg"
                 />
-                <a href="/MyProfile" className={stylesAnimation.ProfileLink}><div className={styles.other1}>other</div></a>
+                <Link to="/MyProfile" className={stylesAnimation.ProfileLink}><div className={styles.other1}>other</div></Link>
               </div>
             </div>
             <div className={styles.fastaccessQuestionshelpcircle1} />

@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import styles from "./FrameComponent2.module.css";
 import stylesAnimation from "../components/globalAnimations.module.css";
+import { Link } from "react-router-dom";
 
 const username = localStorage.getItem('username');
 
@@ -14,7 +15,7 @@ const FrameComponent2: FunctionComponent = () => {
         <div className={styles.notification}>
          
           <button className={styles.button}>
-            <b className={styles.backToHomepage}><a href={`/profile/${username}`}>Back to homepage</a></b>
+            <b className={styles.backToHomepage}><Link to={`/profile/${username}`}>Back to homepage</Link></b>
           </button>
           
           <img
@@ -27,18 +28,18 @@ const FrameComponent2: FunctionComponent = () => {
       </header>
       <div className={styles.tabsComponent}>
         <div className={styles.tabs}>
-          <a className={stylesAnimation.NavLinkSettings} href="/MyProfile">
+          <Link className={stylesAnimation.NavLinkSettings} to="/MyProfile">
             <div className={styles.personalInformation}>My Profile</div>
-          </a>
-          <a className={stylesAnimation.NavLinkSettings} href="/dash-personal">
+          </Link>
+          <Link className={stylesAnimation.NavLinkSettings} to="/dash-personal">
           <div className={styles.personalInformation}>Personal information</div>
-          </a>
-          <a className={stylesAnimation.NavLinkSettings} href="/login-details">
+          </Link>
+          <Link className={stylesAnimation.NavLinkSettings} to="/login-details">
 
           <div className={styles.tabMenu1}>
             <div className={styles.loginDetails}>Login Details</div>
           </div>
-          </a>
+          </Link>
           <div className={styles.tabMenu2}>
             <div className={styles.caption1}>Notifications</div>
           </div>

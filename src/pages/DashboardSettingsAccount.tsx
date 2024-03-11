@@ -3,11 +3,11 @@ import SideBarDashboardApplica from "../components/SideBarDashboardApplica";
 import FrameComponent2 from "../components/FrameComponent2";
 import styles from "./DashboardSettingsAccount.module.css";
 
-const API_URL = 'http://127.0.0.1:8000/api/user/profile';
-const API_URL_PROFILE = 'http://127.0.0.1:8000/api/profile/update/';
+const API_URL = 'https://loke4ka.pythonanywhere.com/api/user/profile';
+const API_URL_PROFILE = 'https://loke4ka.pythonanywhere.com/api/profile/update/';
 
-const Url = 'http://127.0.0.1:8000/api/user/profile/update/';
-const imgUrl = 'http://127.0.0.1:8000/'
+const Url = 'https://loke4ka.pythonanywhere.com/api/user/profile/update/';
+const imgUrl = 'https://loke4ka.pythonanywhere.com/'
 
 interface UserData {
   id: number;

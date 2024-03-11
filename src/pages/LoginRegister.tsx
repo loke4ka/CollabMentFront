@@ -2,8 +2,9 @@ import { FunctionComponent, useState } from "react";
 import styles from "./LoginRegister.module.css";
 import stylesAnimation from "../components/globalAnimations.module.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
-const API_URL = 'http://127.0.0.1:8000/api/login';
+const API_URL = 'https://loke4ka.pythonanywhere.com/api/login';
 
 const LoginRegister: FunctionComponent = () => {
 
@@ -46,7 +47,7 @@ const LoginRegister: FunctionComponent = () => {
   return (
     <div className={styles.loginRegister}>
       <div className={styles.registerFrame}>
-      <a href="/" className={stylesAnimation.logoLink}>
+      <Link to="/" className={stylesAnimation.logoLink}>
         <div className={styles.logoColl}>
           
           <img
@@ -58,7 +59,7 @@ const LoginRegister: FunctionComponent = () => {
           <b className={styles.collabment}> COLLABMENT</b>
 
         </div>
-        </a>
+        </Link>
         <div className={styles.collaborationText}>
           <form className={styles.fRAME}>
             <div className={styles.inputFrame}>
@@ -69,12 +70,12 @@ const LoginRegister: FunctionComponent = () => {
                 <h1 className={styles.signIn}>Sign in</h1>
               </div>
               <div className={styles.noAccountText}>
-                <a href="/signup">
+                <Link to="/signup">
                 <div className={styles.noAccountContainer}>
                   <p className={styles.noAccount}>No Account ?</p>
                   <p className={styles.signUp}>Sign up</p>
                 </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className={styles.googleSignIn}>

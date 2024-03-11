@@ -1,12 +1,12 @@
 import { FunctionComponent } from "react";
 import styles from "./LoginRegister1.module.css";
 import stylesAnimation from "../components/globalAnimations.module.css";
-
+import { Link } from "react-router-dom";
 
 import { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:8000/api';
+const API_URL = 'https://loke4ka.pythonanywhere.com/api';
 
 
 const registerUser = async (username: any, email: any, password: any, phoneNumber: any, setLoading: any, setRegistrationStatus: any) => {
@@ -78,7 +78,7 @@ const LoginRegister1: FunctionComponent = () => {
       <div className={styles.registerFrame}>
         <div className={styles.emptyFrame}>
 
-          <a className={stylesAnimation.logoLink} href="/">
+          <Link className={stylesAnimation.logoLink} to="/">
           <div className={styles.logoColl}>
             <img
               className={styles.tablersteamIcon}
@@ -88,7 +88,7 @@ const LoginRegister1: FunctionComponent = () => {
             />
             <b className={styles.collabment}>COLLABMENT</b>
           </div>
-          </a>
+          </Link>
 
           <div className={styles.parentFrame}>
             <form className={styles.childFrame}>
@@ -100,12 +100,12 @@ const LoginRegister1: FunctionComponent = () => {
                   <h1 className={styles.signUp}>Sign up</h1>
                 </div>
                 <div className={styles.communityText}>
-                  <a href="/login-register">
+                  <Link to="/login-register">
                   <div className={styles.haveAnAccountContainer}>
                     <p className={styles.haveAnAccount}>Have an Account ?</p>
                     <p className={styles.signIn}>Sign in</p>
                   </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className={styles.instanceParent}>

@@ -4,12 +4,13 @@ import NewArticle from "../components/NewArticle";
 import Footer3 from "../components/Footer3";
 import styles from "./Feed.module.css";
 import Navigation1 from "../components/Navigation1";
+import { Link } from "react-router-dom";
 
-const API_URL = 'http://127.0.0.1:8000/api/user/profile';
+const API_URL = 'https://loke4ka.pythonanywhere.com/api/user/profile';
 
-const Url = 'http://127.0.0.1:8000/';
-const UrlToPost = 'http://127.0.0.1:8000/api/posts/user/';
-const UrlToGetPosts = 'http://127.0.0.1:8000/api/posts/all/';
+const Url = 'https://loke4ka.pythonanywhere.com/';
+const UrlToPost = 'https://loke4ka.pythonanywhere.com/api/posts/user/';
+const UrlToGetPosts = 'https://loke4ka.pythonanywhere.com/api/posts/all/';
 
 
 interface profileData {
@@ -332,7 +333,7 @@ const PostList: React.FC<PostListProps> = ({ posts }) => {
               src={Url + post.profile.profile_photo}
             />
             <div className={styles.productDesignerFrameWrapper}>
-              <a href={`/profile/${post.author.username}`}>
+              <Link to={`/profile/${post.author.username}`}>
               <div className={styles.productDesignerFrame}>
                 
                 <b className={styles.kyleFisher}>{post.author.first_name} {post.author.last_name}</b>
@@ -340,7 +341,7 @@ const PostList: React.FC<PostListProps> = ({ posts }) => {
                   {post.author.user_type}
                 </div>
               </div>
-              </a>
+              </Link>
               
             </div>
             

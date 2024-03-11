@@ -27,7 +27,7 @@ import UserSelectionModal from "./UserSelectionModal";
 const userName = localStorage.getItem('username');
 const userId = localStorage.getItem('username');
 const userToken = localStorage.getItem('userToken');
-const Url = 'http://127.0.0.1:8000/';
+const Url = 'https://loke4ka.pythonanywhere.com/';
 const userData = JSON.parse(localStorage.getItem('userData') || '{}');
 
 const apiKey = '4s4gsvyuueje';

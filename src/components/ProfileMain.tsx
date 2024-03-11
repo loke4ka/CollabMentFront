@@ -1,9 +1,11 @@
 import { FunctionComponent, useEffect, useState } from "react";
 import AdditionalDetails from "./AdditionalDetails";
 import styles from "./ProfileMain.module.css";
+import { Link } from 'react-router-dom';
 
-const API_URL = 'http://127.0.0.1:8000/api/user/profile';
-const Url = 'http://127.0.0.1:8000/';
+
+const API_URL = 'https://loke4ka.pythonanywhere.com/api/user/profile';
+const Url = 'https://loke4ka.pythonanywhere.com/';
 
 
 interface UserData {
@@ -217,7 +219,7 @@ if (!userData) {
                 </div>
                 <div className={styles.languageFrameInner}>
                   <div className={styles.aboutParent}>
-                    <a href={"/profileAbout/" + username}><h3 className={styles.about}>About</h3></a>
+                    <Link to={"/profileAbout/" + username}><h3 className={styles.about}>About</h3></Link>
                     <h3 className={styles.posts}>Posts</h3>
                   </div>
                 </div>
