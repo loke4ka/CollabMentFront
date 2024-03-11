@@ -1,0 +1,230 @@
+.main,
+.sidebar {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-snow);
+  width: 850px;
+}
+.sidebar {
+  left: 890px;
+  width: 290px;
+}
+.columns {
+  width: 1180px;
+  height: 997px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.base {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutrals-0);
+  box-shadow: 0 10px 40px rgba(89, 120, 150, 0.06);
+}
+.base1,
+.line {
+  align-self: stretch;
+  position: relative;
+}
+.base1 {
+  flex: 1;
+  background-color: var(--neutrals-0);
+}
+.line {
+  width: 1px;
+  border-right: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+}
+.logoZone {
+  height: 80px;
+  width: 170px;
+  margin: 0 !important;
+  position: absolute;
+  top: -80px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  z-index: 1;
+}
+.tablersteamIcon {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tablersteamWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-smi);
+}
+.collabment {
+  position: relative;
+}
+.logoColl {
+  margin-top: -71px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) var(--padding-3xs) var(--padding-base);
+  gap: 6px 0;
+  z-index: 2;
+}
+.itemsWrapper,
+.logoCollWrapper {
+  height: -5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.itemsWrapper {
+  height: 0;
+  flex: 1;
+  padding: 0 var(--padding-xl) 0 0;
+  max-width: 100%;
+}
+.lineseparator {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+}
+.searchIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  left: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.search1 {
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  font-weight: 300;
+  font-family: var(--body-small-medium);
+  color: var(--color-lightgray);
+  text-align: left;
+  white-space: nowrap;
+}
+.framegroup,
+.text {
+  display: flex;
+  justify-content: flex-start;
+}
+.text {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.framegroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  gap: 0 74px;
+}
+.frame,
+.framegroup,
+.search {
+  align-self: stretch;
+}
+.frame {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+}
+.search {
+  margin-top: -80px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.searchWrapper {
+  width: 367px;
+  max-width: 100%;
+}
+.photo,
+.searchWrapper,
+.talentSolutions {
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+}
+.photo {
+  width: 330px;
+  max-width: 100%;
+}
+.talentSolutions {
+  width: 90px;
+}
+.navigation,
+.network {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.navigation {
+  align-self: stretch;
+  height: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-21xl) 0 var(--padding-8xl);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+}
+.network {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-61xl) 0 0;
+  gap: 40px 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 975px) {
+  .network {
+    gap: 40px 0;
+  }
+}

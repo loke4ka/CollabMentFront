@@ -1,0 +1,348 @@
+.profileManagement {
+  margin: 0;
+  width: 838.4px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 237%;
+  flex-shrink: 0;
+}
+.profileManagementWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 230px;
+  max-width: 100%;
+}
+.communitiesAndForums {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.communitiesAndForumsWrapper {
+  flex: 0.9309;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+  min-width: 235px;
+  max-width: 100%;
+}
+.investorManagement {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.investorManagementWrapper {
+  flex: 0.9139;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl) 0 0;
+  box-sizing: border-box;
+  min-width: 235px;
+  max-width: 100%;
+}
+.interactionManagement {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameGroup,
+.interactionManagementWrapper {
+  width: 326px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 1442px;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl);
+  row-gap: 20px;
+}
+.blogLinkIcon,
+.frameChild,
+.partnershipsLinkIcon,
+.unsplashkw3m50xrhjkIcon {
+  position: relative;
+  border-radius: var(--br-lg);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.blogLinkIcon {
+  align-self: stretch;
+  flex: 1;
+}
+.frame,
+.helpCenterLink {
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.helpCenterLink {
+  height: 423px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.frame {
+  width: 1452px;
+  overflow: hidden;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl);
+  gap: 0 16px;
+  grid-template-columns: repeat(4, minmax(256px, 1fr));
+}
+.craftImpressiveProfiles {
+  align-self: stretch;
+  position: relative;
+}
+.rollingFunds {
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.connectWithLikeMinded {
+  width: 338px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.investorRelationsReimagined {
+  align-self: stretch;
+  position: relative;
+}
+.syndicates {
+  width: 342px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.engageDirectlyThrough {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 243px;
+  max-width: 100%;
+}
+.rollingFundsParent {
+  width: 1481px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: 0 14px;
+  max-width: 100%;
+  font-size: var(--body-normal-regular-size);
+}
+.frameItem,
+.howItWorks {
+  position: relative;
+  max-width: 100%;
+}
+.frameItem {
+  width: 909px;
+  height: 468px;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--color-black1);
+  box-sizing: border-box;
+  display: none;
+}
+.howItWorks {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.howItWorksWrapper {
+  width: 644px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.elevatingCollaborationTo {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.embarkingOnSuccessful {
+  height: 144px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.embarkingOnSuccessfulPartneWrapper {
+  width: 596px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--display-2-size);
+}
+.demoDayFunds,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 909px;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--color-black1);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-35xl) var(--padding-6xl) var(--padding-51xl)
+    var(--padding-xl);
+  gap: 20px 0;
+}
+.demoDayFunds,
+.frameParent {
+  align-self: stretch;
+}
+.demoDayFunds {
+  border-radius: var(--br-mini);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-77xl);
+}
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 63px 0;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 1425px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .frame {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(256px, 443px));
+  }
+  .frameParent {
+    gap: 63px 0;
+  }
+}
+@media screen and (max-width: 950px) {
+  .frameChild,
+  .partnershipsLinkIcon,
+  .unsplashkw3m50xrhjkIcon {
+    width: 100%;
+  }
+  .frame {
+    grid-template-columns: minmax(256px, 1fr);
+  }
+  .howItWorks {
+    font-size: var(--font-size-29xl);
+  }
+  .elevatingCollaborationTo {
+    font-size: var(--font-size-10xl);
+  }
+  .rectangleParent {
+    padding-top: var(--padding-16xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: 63px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .communitiesAndForums,
+  .profileManagement {
+    font-size: var(--font-size-mid);
+  }
+  .communitiesAndForumsWrapper {
+    flex: 1;
+  }
+  .investorManagement {
+    font-size: var(--font-size-mid);
+  }
+  .investorManagementWrapper {
+    flex: 1;
+  }
+  .interactionManagement {
+    font-size: var(--font-size-mid);
+  }
+  .howItWorks {
+    font-size: var(--font-size-10xl);
+  }
+  .elevatingCollaborationTo {
+    font-size: var(--font-size-3xl);
+  }
+  .embarkingOnSuccessful {
+    font-size: var(--body-normal-regular-size);
+  }
+}

@@ -1,0 +1,334 @@
+.secondFrameChild {
+  width: 698px;
+  height: 606px;
+  position: relative;
+  border-radius: var(--br-15xl);
+  background-color: var(--neutrals-0);
+  box-shadow: var(--cards-short-default);
+  border: 1px solid var(--neutral-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.frameChild {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-100);
+  z-index: 1;
+}
+.lineSection {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  z-index: 2;
+  margin-left: -20px;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 0;
+}
+.frameItem {
+  align-self: stretch;
+  height: 6px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-mediumslateblue-100);
+  z-index: 1;
+}
+.fifthFrameInner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  min-width: 64px;
+}
+.frameInner {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-100);
+  z-index: 1;
+}
+.div {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  z-index: 2;
+  margin-left: -21px;
+}
+.ellipseGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.rectangleDiv {
+  align-self: stretch;
+  height: 6px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-mediumslateblue-100);
+  z-index: 1;
+}
+.fifthFrameChild {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-11xs) 0;
+  box-sizing: border-box;
+  min-width: 64px;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 0;
+  left: -0.3px;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-100);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.div1 {
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  line-height: 18px;
+  font-weight: 500;
+  z-index: 2;
+}
+.ellipseContainer {
+  height: 34px;
+  width: 34px;
+  position: relative;
+}
+.frameChild1 {
+  align-self: stretch;
+  height: 6px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-mediumslateblue-100);
+  z-index: 1;
+}
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-11xs) 0;
+  box-sizing: border-box;
+  min-width: 64px;
+}
+.frameChild2 {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-100);
+  z-index: 1;
+}
+.div2 {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  z-index: 2;
+  margin-left: -23px;
+}
+.ellipseParent1,
+.fifthFrame,
+.fourthFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.ellipseParent1 {
+  align-items: center;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.fifthFrame,
+.fourthFrame {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fifthFrame {
+  flex: 1;
+  align-items: center;
+  padding: 0 var(--padding-9xs) 0 0;
+  gap: 0 17px;
+}
+.fourthFrame {
+  width: 549px;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+}
+.sixthFrame,
+.thirdFrame {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.sixthFrame {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--neutral-400);
+  z-index: 1;
+}
+.thirdFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xl);
+  gap: 31px 0;
+  max-width: 100%;
+}
+.submitButtonFrameChild {
+  width: 157.4px;
+  height: 143.4px;
+  position: relative;
+  z-index: 1;
+}
+.submitYourQuote {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 35px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.pleaseReviewAll {
+  align-self: stretch;
+  height: 105.7px;
+  position: relative;
+  font-size: var(--body-large-semibold-size);
+  line-height: 30px;
+  color: var(--neutral-600);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.secondaryBtn,
+.submitButtonFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.secondaryBtn {
+  align-self: stretch;
+  gap: 7px 0;
+  flex-shrink: 0;
+}
+.submitButtonFrame {
+  flex: 1;
+  gap: 19px 0;
+  max-width: 100%;
+}
+.buttonText,
+.groupedFrame {
+  font-family: var(--body-small-medium);
+  text-align: center;
+}
+.groupedFrame {
+  width: 505px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  color: var(--neutral-800);
+}
+.buttonText {
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--neutrals-0);
+}
+.primaryBtn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-2xl);
+  background-color: var(--color-mediumslateblue-100);
+  flex: 1;
+  border-radius: var(--br-37xl);
+  box-shadow: 0 3px 12px rgba(74, 58, 255, 0.18);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.primaryBtn:hover {
+  background-color: var(--color-dodgerblue-100);
+}
+.primaryBTN,
+.secondFrame {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+}
+.primaryBTN {
+  width: 145px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-4xs);
+}
+.secondFrame {
+  align-self: stretch;
+  border-radius: var(--br-15xl);
+  background-color: var(--neutrals-0);
+  box-shadow: var(--cards-short-default);
+  border: 1px solid var(--neutral-300);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-15xl) var(--padding-36xl) var(--padding-64xl)
+    var(--padding-27xl);
+  gap: 13px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+  color: var(--neutrals-0);
+  font-family: var(--other-16-23-r);
+}
+@media screen and (max-width: 800px) {
+  .secondFrame {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .fifthFrame {
+    flex-wrap: wrap;
+  }
+  .thirdFrame {
+    gap: 31px 0;
+  }
+  .secondFrame {
+    padding-top: var(--padding-3xl);
+    padding-bottom: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .submitYourQuote {
+    font-size: var(--font-size-lgi);
+    line-height: 28px;
+  }
+}

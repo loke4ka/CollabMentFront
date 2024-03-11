@@ -1,0 +1,473 @@
+.tablersteamIcon {
+  height: 45.6px;
+  width: 45.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.collabment,
+.tablersteamIcon {
+  position: relative;
+}
+.logoColl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 5px;
+}
+.signUp,
+.welcomeToCollabment {
+  position: relative;
+  white-space: pre-wrap;
+}
+.signUp {
+  margin: 0;
+  font-size: var(--font-size-36xl);
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.welcomeText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px 0;
+  min-width: 242px;
+}
+.haveAnAccount,
+.signIn {
+  margin: 0;
+}
+.signIn {
+  color: var(--color-dodgerblue-300);
+}
+.haveAnAccountContainer {
+  position: relative;
+}
+.signinText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-1200);
+  font-family: var(--font-poppins);
+}
+.firstFrameInner,
+.welcomeTextParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.welcomeTextParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.firstFrameInner {
+  width: 481px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.areYouLooking {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+.findRemoteJob,
+.frameChild {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.findRemoteJob {
+  width: 555px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs) 0;
+  font-size: var(--body-normal-regular-size);
+  color: var(--color-gray-1200);
+}
+.frameChild {
+  height: 86px;
+  width: 570px;
+  position: relative;
+  border-radius: var(--br-mini);
+  border: 1px solid var(--color-gainsboro-700);
+  display: none;
+}
+.frameItem {
+  height: 45px;
+  width: 103px;
+  position: relative;
+  z-index: 1;
+}
+.imARemote,
+.imAnEmployee {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  z-index: 1;
+}
+.imAnEmployee {
+  font-size: var(--body-normal-regular-size);
+  font-weight: 300;
+}
+.remoteWorkerIcon {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 50px 0 0;
+  box-sizing: border-box;
+  gap: 6px 0;
+  min-width: 237px;
+  max-width: 100%;
+}
+.ellipseShapeChild {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid var(--color-gainsboro-700);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.ellipseShape {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xl);
+}
+.frameInner,
+.rectangleParent {
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  border: 1px solid var(--color-gainsboro-700);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi) var(--padding-2xl)
+    var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.frameInner {
+  height: 86px;
+  width: 570px;
+  position: relative;
+  border: 2px solid var(--color-mediumslateblue-100);
+  display: none;
+}
+.hiringFrameChild {
+  height: 45px;
+  width: 103px;
+  position: relative;
+  z-index: 1;
+}
+.iWantTo,
+.imOnEmployer {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  z-index: 1;
+}
+.imOnEmployer {
+  font-size: var(--body-normal-regular-size);
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+.iwanttohireText {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px 0;
+  min-width: 181px;
+}
+.hiringFrame,
+.hiringFrameWrapper,
+.iwanttohireText {
+  display: flex;
+  justify-content: flex-start;
+}
+.hiringFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 20px;
+}
+.hiringFrameWrapper {
+  width: 402px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 45px);
+}
+.ellipseIcon,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.vectorIcon {
+  top: 7px;
+  left: 5px;
+  width: 15px;
+  height: 11px;
+  z-index: 2;
+}
+.vectorParent {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  border: 2px solid var(--color-mediumslateblue-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-sm) var(--padding-xl)
+    var(--padding-4xl);
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--body-small-medium);
+  color: var(--neutrals-0);
+  text-align: center;
+}
+.primaryBtn1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-17xl) var(--padding-2xl)
+    var(--padding-21xl);
+  background-color: var(--color-mediumslateblue-100);
+  border-radius: var(--br-37xl);
+  box-shadow: 0 3px 12px rgba(74, 58, 255, 0.18);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.primaryBtn1:hover {
+  background-color: var(--color-dodgerblue-100);
+}
+.jobSeekerFrame,
+.primaryBtn {
+  display: flex;
+  justify-content: flex-start;
+}
+.primaryBtn {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.jobSeekerFrame {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 28px 0;
+  max-width: 100%;
+  font-size: var(--display-2-size);
+}
+.firstFrame {
+  align-self: stretch;
+  gap: 57px 0;
+  font-size: var(--font-size-2xl);
+}
+.firstFrame,
+.mainFRAME,
+.registerFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.mainFRAME {
+  align-self: stretch;
+  gap: 96px 0;
+}
+.registerFrame {
+  width: 570px;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  min-width: 570px;
+}
+.img {
+  height: 825px;
+  width: 659px;
+  position: relative;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-ghostwhite);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.texte {
+  height: 12px;
+  width: 42px;
+  display: none;
+  z-index: 1;
+}
+.findAJob {
+  margin: 0;
+  width: 504px;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.icon {
+  height: 670.8px;
+  width: 789px;
+  position: absolute;
+  margin: 0 !important;
+  right: -120px;
+  bottom: -12.8px;
+  object-fit: cover;
+  z-index: 2;
+}
+.imgParent,
+.loginRegister {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.imgParent {
+  flex: 1;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-ghostwhite);
+  padding: var(--padding-63xl) var(--padding-32xl);
+  min-width: 428px;
+  min-height: 825px;
+  max-width: 100%;
+  font-size: var(--font-size-18xl);
+  color: var(--gray-02-100);
+}
+.loginRegister {
+  width: 100%;
+  background-color: var(--neutrals-0);
+  overflow: hidden;
+  padding: var(--padding-19xl) var(--padding-32xl) var(--padding-18xl)
+    var(--padding-78xl);
+  gap: 0 63px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm-8);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 1200px) {
+  .registerFrame {
+    flex: 1;
+  }
+  .loginRegister {
+    flex-wrap: wrap;
+    gap: 0 63px;
+    padding-left: var(--padding-29xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .signUp {
+    font-size: var(--font-size-25xl);
+  }
+  .findAJob {
+    font-size: var(--font-size-11xl);
+    line-height: 41px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+  .firstFrame {
+    gap: 57px 0;
+  }
+  .mainFRAME {
+    gap: 96px 0;
+  }
+  .imgParent,
+  .registerFrame {
+    min-width: 100%;
+  }
+  .imgParent {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .loginRegister {
+    gap: 0 63px;
+    padding-left: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeToCollabment {
+    font-size: var(--font-size-mid);
+  }
+  .signUp {
+    font-size: var(--font-size-14xl);
+  }
+  .welcomeText {
+    flex: 1;
+  }
+  .welcomeTextParent {
+    flex-wrap: wrap;
+  }
+  .imARemote {
+    font-size: var(--body-normal-regular-size);
+  }
+  .remoteWorkerIcon {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .iWantTo {
+    font-size: var(--body-normal-regular-size);
+  }
+  .hiringFrame {
+    flex-wrap: wrap;
+  }
+  .mainFRAME {
+    gap: 96px 0;
+  }
+  .findAJob {
+    font-size: var(--font-size-3xl);
+    line-height: 31px;
+  }
+}

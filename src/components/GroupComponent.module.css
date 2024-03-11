@@ -1,0 +1,231 @@
+.frameChild {
+  height: 588px;
+  width: 850px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.frameItem,
+.ourTeamLogo {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.frameItem {
+  height: 60px;
+  width: 60px;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ourTeamLogo {
+  height: 4px;
+  width: 17px;
+  top: 11px;
+  right: -7px;
+}
+.brandonWilson {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.h {
+  width: 35px;
+  position: relative;
+  font-size: var(--body-large-semibold-size);
+  color: var(--color-gray-400);
+  display: inline-block;
+}
+.collabmentInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 5px;
+}
+.ourTeamAt {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.image8Icon {
+  width: 679px;
+  height: 453px;
+  position: relative;
+  border-radius: var(--br-xl);
+  object-fit: cover;
+  max-width: 100%;
+}
+.brandonMessage,
+.profileInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.profileInfo {
+  gap: 15px 0;
+  font-size: var(--body-large-semibold-size);
+  color: var(--color-black1);
+}
+.brandonMessage {
+  gap: 5px 0;
+}
+.commentIcon {
+  height: 24px;
+  width: 24px;
+}
+.commentIcon,
+.replyHelp {
+  position: relative;
+}
+.commentParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.retweetIcon {
+  height: 24px;
+  width: 24px;
+}
+.div,
+.retweetIcon {
+  position: relative;
+}
+.retweetParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.likeIcon {
+  height: 24px;
+  width: 24px;
+}
+.div1,
+.likeIcon {
+  position: relative;
+}
+.likeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.shareIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.div2 {
+  width: 18px;
+  position: relative;
+  display: none;
+}
+.shareParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.div3,
+.statisticsIcon {
+  position: relative;
+  display: none;
+}
+.statisticsIcon {
+  height: 24px;
+  width: 24px;
+}
+.div3 {
+  width: 18px;
+}
+.postComponents,
+.statisticsParent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+}
+.statisticsParent {
+  align-self: stretch;
+  width: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.postComponents {
+  width: 586px;
+  height: 24px;
+  overflow-x: auto;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--body-normal-regular-size);
+  color: var(--color-dimgray-100);
+}
+.brandonMessageParent,
+.ourTeamLogoParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.brandonMessageParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 22px 0;
+  z-index: 2;
+}
+.ourTeamLogoParent {
+  width: 747px;
+  flex-direction: row;
+  position: relative;
+}
+.frameInner {
+  height: 909px;
+  width: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  transform: rotate(-90deg);
+  display: none;
+  z-index: 3;
+}
+.rectangleParent {
+  width: 850px;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) var(--padding-lg) var(--padding-smi);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--display-2-size);
+  color: var(--color-gray-100);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 450px) {
+  .brandonWilson {
+    font-size: var(--body-normal-regular-size);
+  }
+}

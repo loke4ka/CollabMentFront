@@ -1,0 +1,47 @@
+.span {
+  color: var(--accents-red);
+}
+.phoneNumberContainer {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.thisIsPlaceholder {
+  width: 117px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-normal-regular);
+  font-size: var(--body-normal-regular-size);
+  background-color: transparent;
+  height: 26px;
+  position: relative;
+  line-height: 160%;
+  color: var(--neutrals-80);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+}
+.input,
+.textfield {
+  display: flex;
+  justify-content: flex-start;
+}
+.input {
+  align-self: stretch;
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutrals-20);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.textfield {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px 0;
+  min-width: 168px;
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+  color: var(--neutrals-80);
+  font-family: var(--body-small-medium);
+}

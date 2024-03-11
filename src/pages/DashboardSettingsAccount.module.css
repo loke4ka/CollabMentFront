@@ -1,0 +1,781 @@
+.basicInformation1,
+.thisIsYour {
+  position: relative;
+  line-height: 160%;
+}
+.basicInformation1 {
+  width: 228px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.thisIsYour {
+  font-size: var(--body-normal-regular-size);
+  font-family: var(--body-normal-regular);
+  color: var(--neutrals-80);
+}
+.profilePhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px 0;
+  max-width: 100%;
+}
+.basicInformation,
+.topNav {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.basicInformation {
+  width: 1144px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  flex-shrink: 0;
+}
+.topNav {
+  width: 1104px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--neutrals-20);
+}
+.profilePhoto1,
+.thisImageWill {
+  position: relative;
+  line-height: 160%;
+}
+.profilePhoto1 {
+  font-weight: 600;
+}
+.thisImageWill {
+  align-self: stretch;
+  color: var(--neutrals-80);
+}
+.basicInformationText {
+  width: 259px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px 0;
+  min-width: 259px;
+}
+.inputDropdown {
+  height: 124px;
+  width: 124px;
+  position: relative;
+  border-radius: 62px;
+  background-color: var(--color-gainsboro-400);
+}
+
+.profileImage{
+  height: 124px;
+  width: 124px;
+  position: relative;
+  border-radius: 62px;
+  background-color: var(--color-gainsboro-400);
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.clickToReplace {
+  font-weight: 500;
+}
+.span {
+  color: var(--neutrals-100);
+}
+.orDragAndDrop {
+  color: var(--neutrals-80);
+}
+.clickToReplaceContainer {
+  position: relative;
+  line-height: 160%;
+}
+.phoneNumberTextField,
+.svgPngJpg {
+  align-self: stretch;
+  align-items: center;
+}
+.svgPngJpg {
+  width: calc(100% - 0px);
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-medium);
+  font-size: var(--body-normal-regular-size);
+  background-color: transparent;
+  height: 26px;
+  position: relative;
+  line-height: 160%;
+  color: var(--neutrals-60);
+  text-align: left;
+  display: flex;
+  min-width: 192px;
+}
+.phoneNumberTextField {
+  gap: 4px 0;
+}
+.phoneNumberTextField,
+.textfield,
+.textfieldRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.textfieldRow {
+  align-self: stretch;
+  align-items: center;
+  gap: 8px 0;
+}
+
+/* Скрыть кнопку "Выберите файл" */
+input[type="file"] {
+  margin-left: 250px;
+  margin-top: -150px;
+  width: 200%;
+  height: 50%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+
+.textfield {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--lights-gray);
+  border: 2px dashed var(--color-mediumslateblue);
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: var(--padding-5xl) var(--padding-25xl) var(--padding-5xl)
+    var(--padding-21xl);
+  min-width: 263px;
+  max-width: 100%;
+}
+
+.textfieldForPhoto{
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--lights-gray);
+  border: 2px dashed var(--color-mediumslateblue);
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: var(--padding-5xl) var(--padding-25xl) var(--padding-5xl)
+    var(--padding-21xl);
+  min-width: 100%;
+  max-width: 100%;
+  font-size: smaller;
+  text-align: center;
+  }
+
+.personalDetailsFrame,
+.textfieldPhoneNumber {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.textfieldPhoneNumber {
+  width: 560px;
+  justify-content: flex-start;
+  gap: 0 32px;
+  min-width: 560px;
+  color: var(--color-mediumslateblue);
+  font-family: var(--body-normal-regular);
+}
+.personalDetailsFrame {
+  width: 936px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.personalInfoFrame,
+.topNav1 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.personalInfoFrame {
+  width: 1144px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+  color: var(--neutrals-100);
+  font-family: var(--body-small-medium);
+}
+.topNav1 {
+  width: 1104px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--neutrals-20);
+}
+.personalDetails1 {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.span1 {
+  color: var(--accents-red);
+}
+.ayaGazizova,
+.fullNameContainer {
+  position: relative;
+  line-height: 160%;
+}
+.fullNameContainer {
+  font-weight: 600;
+}
+.ayaGazizova {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-medium);
+  font-size: var(--body-normal-regular-size);
+  background-color: transparent;
+  height: 26px;
+  color: var(--color-black1);
+  text-align: left;
+  display: inline-block;
+}
+.input,
+.textfield1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.input {
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutrals-20);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.textfield1 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px 0;
+}
+.span2 {
+  color: var(--accents-red);
+}
+.phoneNumberContainer {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.thisIsPlaceholder {
+  width: 117px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-normal-regular);
+  font-size: var(--body-normal-regular-size);
+  background-color: transparent;
+  height: 26px;
+  position: relative;
+  line-height: 160%;
+  color: var(--neutrals-80);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+}
+.input1,
+.textfield2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.input1 {
+  align-self: stretch;
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutrals-20);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.textfield2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px 0;
+  min-width: 168px;
+}
+.span3 {
+  color: var(--accents-red);
+}
+.email,
+.gazizovaemailcom {
+  position: relative;
+  line-height: 160%;
+}
+.email {
+  font-weight: 600;
+}
+.gazizovaemailcom {
+  width: 163px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-normal-regular);
+  font-size: var(--body-normal-regular-size);
+  background-color: transparent;
+  height: 26px;
+  color: var(--neutrals-100);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+}
+.input2,
+.row2,
+.textfield3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.input2 {
+  align-self: stretch;
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutrals-20);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.row2,
+.textfield3 {
+  align-items: flex-start;
+}
+.textfield3 {
+  flex: 1;
+  flex-direction: column;
+  gap: 4px 0;
+  min-width: 168px;
+}
+.row2 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 24px;
+}
+.span4 {
+  color: var(--accents-red);
+}
+.dateOfBirthContainer {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+
+.input4 {
+  width: calc(100% + 120px); 
+  border: 0;
+  outline: 0;
+  font-family: var(--body-normal-regular);
+  font-size: var(--body-normal-regular-size);
+  background-color: transparent;
+  height: 26px;
+  line-height: 160%;
+  color: var(--neutrals-80);
+  text-align: left;
+  display: inline-block;
+  padding-right: 30px; 
+}
+
+
+/* Стили для стрелки выбора */
+.input4::after {
+  content: '\25BC'; /* Юникод для стрелки вниз */
+  position: absolute;
+  right: 5px; /* Располагает стрелку справа */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon1,
+.input3 {
+  position: relative;
+}
+.input3 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-normal-regular);
+  font-size: var(--body-normal-regular-size);
+  background-color: transparent;
+  height: 26px;
+  line-height: 160%;
+  color: var(--neutrals-80);
+  text-align: left;
+  display: inline-block;
+}
+.icon1 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dropdown {
+  align-self: stretch;
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutrals-20);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-xl);
+}
+.textfield4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px 0;
+  min-width: 168px;
+}
+.span5 {
+  color: var(--accents-red);
+}
+.gender {
+  line-height: 160%;
+  font-weight: 600;
+}
+.female,
+.gender,
+.icon2 {
+  position: relative;
+}
+.female {
+  line-height: 160%;
+}
+.icon2 {
+  height: 20px;
+  width: 20px;
+}
+.dropdown1 {
+  align-self: stretch;
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutrals-20);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-xl);
+  font-family: var(--body-normal-regular);
+}
+.textfield5 {
+  flex: 1;
+  flex-direction: column;
+  gap: 4px 0;
+  min-width: 168px;
+}
+.forms,
+.row3,
+.textfield5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.row3 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 24px;
+}
+.forms {
+  width: 540px;
+  flex-direction: column;
+  gap: 24px 0;
+  max-width: 100%;
+  color: var(--neutrals-80);
+}
+.personalDetails,
+.topNav2 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.personalDetails {
+  width: 1144px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: 0 246px;
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+  color: var(--neutrals-100);
+  font-family: var(--body-small-medium);
+}
+.topNav2 {
+  width: 1104px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--neutrals-20);
+}
+.accountType,
+.youCanUpdate {
+  position: relative;
+  line-height: 160%;
+}
+.accountType {
+  width: 228px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.youCanUpdate {
+  color: var(--neutrals-80);
+}
+.jobSeekerRadio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px 0;
+}
+.radioButton {
+  border-color: var(--color-mediumslateblue);
+  accent-color: #0058ff;
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.jobSeeker {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+}
+.radioButtonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 16px;
+}
+.lookingForA {
+  width: 259px;
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.lookingForAJobWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 0 var(--padding-21xl);
+  color: var(--neutrals-80);
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.radioButton1 {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.employer {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+}
+.radioButtonGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 16px;
+}
+.hiringSourcingCandidates {
+  position: relative;
+  line-height: 160%;
+  z-index: 1;
+}
+.frameGroup,
+.hiringSourcingCandidatesOWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.hiringSourcingCandidatesOWrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 0 0 var(--padding-21xl);
+  color: var(--color-black1);
+  font-family: var(--body-normal-regular);
+}
+.frameGroup {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.accountTypeLabel,
+.saveProfileButton {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.saveProfileButton {
+  width: 396px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px 0;
+  min-width: 396px;
+}
+.accountTypeLabel {
+  width: 759px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.accountTypeFrame,
+.topNav3 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.accountTypeFrame {
+  width: 1144px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+  color: var(--neutrals-100);
+  font-family: var(--body-small-medium);
+}
+.topNav3 {
+  width: 1104px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--neutrals-20);
+}
+.saveProfile {
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  line-height: 160%;
+  font-family: var(--body-normal-regular);
+  color: var(--neutrals-0);
+  text-align: center;
+}
+.button,
+.topNavFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-lg) var(--padding-xs)
+    var(--padding-5xl);
+  background-color: var(--color-mediumslateblue);
+  align-items: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-royalblue-100);
+}
+.topNavFrame {
+  width: 1144px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dashboardSettingsAccount,
+.lineLayout {
+  display: flex;
+  justify-content: flex-start;
+}
+.lineLayout {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px 0;
+  max-width: calc(100% - 272px);
+  text-align: left;
+  font-size: var(--body-large-semibold-size);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+.dashboardSettingsAccount {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutrals-0);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .personalDetails {
+    gap: 0 246px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .basicInformationText,
+  .textfieldPhoneNumber {
+    flex: 1;
+  }
+  .personalDetails,
+  .personalDetailsFrame {
+    flex-wrap: wrap;
+  }
+  .saveProfileButton {
+    flex: 1;
+  }
+  .accountTypeLabel {
+    flex-wrap: wrap;
+  }
+  .lineLayout {
+    max-width: 100%;
+  }
+  .dashboardSettingsAccount {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .textfieldPhoneNumber {
+    flex-wrap: wrap;
+    gap: 0 32px;
+    min-width: 100%;
+  }
+  .row2,
+  .row3 {
+    flex-wrap: wrap;
+  }
+  .personalDetails {
+    gap: 0 246px;
+  }
+  .saveProfileButton {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .textfield {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

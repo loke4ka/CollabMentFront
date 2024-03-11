@@ -1,0 +1,291 @@
+.tablersteamIcon {
+  height: 45.6px;
+  width: 45.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.collabment,
+.tablersteamIcon {
+  position: relative;
+}
+.tablersteamParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 5px;
+}
+.forIndivduals,
+.home {
+  position: relative;
+  line-height: 162.52%;
+  font-weight: 600;
+}
+.forIndivduals {
+  white-space: nowrap;
+}
+.heading {
+  flex: 0.9397;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.forBusiness,
+.forDevelopers {
+  position: relative;
+  line-height: 162.52%;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.forDevelopers {
+  flex: 1;
+}
+.frameGroup,
+.textNode {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.textNode {
+  width: 454px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: 0 25px;
+  text-align: center;
+  font-size: var(--body-normal-regular-size);
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-sm-8);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+.textNode1 {
+  height: 136.8px;
+  width: 609.6px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 47.4px;
+  left: -2px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-mediumslateblue);
+}
+.collabment1 {
+  font-size: var(--font-size-83xl-4);
+  color: var(--neutrals-0);
+}
+.welcomeToCollabmentContainer {
+  height: 340px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.list,
+.rollingFundsFeesBreakdownD {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.list {
+  flex: 1;
+  position: relative;
+}
+.rollingFundsFeesBreakdownD {
+  width: 648px;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.frameParent,
+.yourPathTo {
+  display: flex;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameParent {
+  width: 905px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px 0;
+}
+.yourPathTo {
+  width: 838.4px;
+  position: relative;
+  align-items: center;
+}
+.logoAndText,
+.termsPrivacyDisclosuresCook {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.termsPrivacyDisclosuresCook {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-sm);
+  margin-top: -12px;
+  font-size: var(--font-size-19xl-4);
+}
+.logoAndText {
+  width: 916px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-14xl) 0 0;
+}
+.heading3,
+.imageWithText {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading3 {
+  width: 83.5px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 21px;
+  font-weight: 500;
+  font-family: var(--body-small-medium);
+  color: var(--color-black1);
+  text-align: center;
+}
+.imageWithText {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+  background-color: var(--color-whitesmoke-200);
+  width: 131px;
+  border-radius: var(--br-2xl);
+  overflow: hidden;
+  flex-direction: row;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.imageWithText:hover {
+  background-color: var(--color-lightgray-200);
+}
+.heading31 {
+  position: relative;
+  font-size: var(--font-size-base-4);
+  letter-spacing: -0.03px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-small-medium);
+  color: var(--neutrals-0);
+  text-align: left;
+}
+.imageWithText1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-10xl) var(--padding-xs)
+    var(--padding-14xl);
+  background-color: var(--color-mediumslateblue);
+  border-radius: var(--br-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.imageWithText1:hover {
+  background-color: var(--color-royalblue-100);
+}
+.lineSeparator {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 7px;
+}
+.lineSeparator,
+.logoText,
+.navbarContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.logoText {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 0;
+}
+.navbarContainer {
+  width: 1422px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.startupContainerChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-900);
+  box-sizing: border-box;
+}
+.startupContainer {
+  width: 1632px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-54xl);
+  box-sizing: border-box;
+  gap: 64px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-57xl-8);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 1425px) {
+  .navbarContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 950px) {
+  .textNode {
+    display: none;
+  }
+  .welcomeToCollabmentContainer {
+    font-size: var(--font-size-42xl);
+  }
+  .yourPathTo {
+    font-size: var(--font-size-12xl);
+  }
+  .startupContainer {
+    gap: 64px 0;
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeToCollabmentContainer {
+    font-size: var(--font-size-27xl);
+  }
+  .frameParent {
+    gap: 32px 0;
+  }
+  .yourPathTo {
+    font-size: var(--font-size-4xl);
+  }
+  .startupContainer {
+    gap: 64px 0;
+  }
+}

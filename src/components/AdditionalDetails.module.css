@@ -1,0 +1,139 @@
+.additionalDetails1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.icon {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.additionalDetailsParent,
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  width: 40px;
+  border: 1px solid var(--neutrals-20);
+  box-sizing: border-box;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-4xs);
+}
+.additionalDetailsParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--display-2-size);
+  color: var(--neutrals-100);
+}
+.icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.email1,
+.gazizovaemailcom {
+  position: relative;
+  line-height: 160%;
+}
+.gazizovaemailcom {
+  color: var(--neutrals-100);
+  white-space: nowrap;
+}
+.content,
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email {
+  flex-direction: row;
+  gap: 0 16px;
+}
+.icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phone,
+.website {
+  position: relative;
+  line-height: 160%;
+}
+.website {
+  color: var(--neutrals-100);
+  white-space: nowrap;
+}
+.content1,
+.email2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email2 {
+  flex-direction: row;
+  gap: 0 16px;
+}
+.icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.kazakhEnglishRussian,
+.languages {
+  position: relative;
+  line-height: 160%;
+}
+.kazakhEnglishRussian {
+  color: var(--neutrals-100);
+}
+.additionalDetails,
+.content2,
+.email3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.additionalDetails,
+.email3 {
+  flex-direction: row;
+  gap: 0 16px;
+}
+.additionalDetails {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  background-color: var(--neutrals-0);
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  gap: 16px 0;
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+  color: var(--neutrals-60);
+  font-family: var(--body-normal-regular);
+}
+@media screen and (max-width: 450px) {
+  .additionalDetails1 {
+    font-size: var(--body-normal-regular-size);
+    line-height: 19px;
+  }
+  .additionalDetailsParent {
+    flex-wrap: wrap;
+  }
+}

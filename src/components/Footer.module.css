@@ -1,0 +1,344 @@
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutrals-0);
+}
+.line,
+.rectangle1 {
+  align-self: stretch;
+  position: relative;
+}
+.line {
+  height: 1px;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.rectangle1 {
+  flex: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(241, 244, 248, 0)
+  );
+}
+.sep {
+  position: absolute;
+  height: 55.81%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 44.19%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.navigation1 {
+  width: 82px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.about,
+.advertising,
+.careers {
+  margin-block-start: 0;
+  margin-block-end: 14px;
+}
+.smallBusiness {
+  margin: 0;
+}
+.aboutCareersAdvertisingContainer {
+  align-self: stretch;
+  height: 102px;
+  position: relative;
+  display: inline-block;
+}
+.navigationParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px 0;
+  min-width: 101px;
+}
+.marketingSolutions,
+.salesSolutions,
+.talentSolutions {
+  margin-block-start: 0;
+  margin-block-end: 14px;
+}
+.saferyCenter {
+  margin: 0;
+}
+.talentSolutionsMarketingContainer {
+  align-self: stretch;
+  height: 102px;
+  position: relative;
+  display: inline-block;
+}
+.talentSolutionsMarketingSolWrapper {
+  flex: 0.931;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  min-width: 109px;
+}
+.communityGuidelines,
+.privacyTerms {
+  margin-block-start: 0;
+  margin-block-end: 14px;
+}
+.mobileApp {
+  margin: 0;
+}
+.communityGuidelinesPrivacyContainer {
+  align-self: stretch;
+  height: 73px;
+  position: relative;
+  display: inline-block;
+}
+.communityGuidelinesPrivacyWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xl);
+  box-sizing: border-box;
+  min-width: 96px;
+}
+.navigation {
+  position: absolute;
+  height: 66.51%;
+  width: 33.19%;
+  top: 16.28%;
+  right: 48.75%;
+  bottom: 17.21%;
+  left: 18.06%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+  z-index: 2;
+}
+.fastAccess1 {
+  width: 92px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.questionsSettings {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-mediumslateblue);
+  border: 1px solid var(--color-mediumslateblue);
+  box-sizing: border-box;
+}
+.questions {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+  z-index: 1;
+}
+.helpCircleIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.helpText,
+.questionsSettingsFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.helpText {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-mini) var(--padding-7xs);
+  position: relative;
+  gap: var(--gap-xl);
+}
+.helpTextChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-mediumslateblue);
+  box-sizing: border-box;
+}
+.settings,
+.settingsIcon {
+  position: relative;
+  z-index: 1;
+}
+.settings {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.settingsIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.helpText1,
+.settingsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-11xs) 0;
+}
+.helpText1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-mini) var(--padding-7xs);
+  position: relative;
+  gap: var(--gap-xl);
+  color: var(--color-mediumslateblue);
+}
+.fastAccess,
+.helpTextParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.helpTextParent {
+  align-self: stretch;
+  gap: 10px 0;
+  color: var(--neutrals-0);
+}
+.fastAccess {
+  position: absolute;
+  height: 50.23%;
+  width: 11.81%;
+  top: 16.28%;
+  right: 31.94%;
+  bottom: 33.49%;
+  left: 56.25%;
+  gap: var(--gap-lgi);
+  z-index: 2;
+}
+.language1 {
+  width: 77px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.rootLanguageBox {
+  align-self: stretch;
+  font-family: var(--body-small-medium);
+  font-weight: 500;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+  gap: var(--gap-xl);
+}
+.language {
+  position: absolute;
+  height: 30.7%;
+  width: 18.75%;
+  top: 16.28%;
+  right: 9.03%;
+  bottom: 53.02%;
+  left: 72.22%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  z-index: 2;
+}
+.tablersteamIcon {
+  height: 45.6px;
+  width: 45.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.collabment,
+.tablersteamIcon {
+  position: relative;
+}
+.logoColl {
+  position: absolute;
+  height: 21.21%;
+  width: 10.34%;
+  top: 16.28%;
+  right: 85.63%;
+  bottom: 62.51%;
+  left: 4.03%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: 0 4px;
+  z-index: 2;
+  font-size: var(--font-size-sm-8);
+  color: var(--color-black1);
+}
+.footer {
+  align-self: stretch;
+  height: 215px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 450px) {
+  .talentSolutionsMarketingSolWrapper {
+    flex: 1;
+  }
+  .navigation {
+    flex-wrap: wrap;
+  }
+  .footer {
+    height: auto;
+    min-height: 215;
+  }
+}

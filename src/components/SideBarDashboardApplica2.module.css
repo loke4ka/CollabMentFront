@@ -1,0 +1,438 @@
+.tablersteamIcon {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 38px;
+}
+.collabment {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.tablersteam,
+.tablersteamWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.tablersteam {
+  align-items: center;
+  gap: 0 8px;
+}
+.tablersteamWrapper {
+  align-items: flex-start;
+  padding: 0 var(--padding-5xl);
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.dashboard {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+}
+.frameFrameFrameFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+  gap: 0 16px;
+}
+.featherIconsBookmark {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.favoriteJobs {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+}
+.frameFrameFrameFrame1 {
+  width: 188px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 16px;
+}
+.phosphorIconsBriefcase {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.appliedJobs {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+}
+.frameFrameFrameFrame2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 16px;
+}
+.caption,
+.icon1 {
+  position: relative;
+}
+.icon1 {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.caption {
+  flex: 1;
+  line-height: 160%;
+  font-weight: 500;
+}
+.frameFrameFrameFrame3 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 16px;
+}
+.frameFrameFrameFrame3,
+.frameIcon,
+.frameIconWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameIcon {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px 0;
+}
+.frameIconWrapper {
+  width: 260px;
+  flex-direction: row;
+  padding: 0 var(--padding-base) var(--padding-7xs) var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--brands-secondary);
+}
+.settings {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 24px;
+  font-weight: 600;
+}
+.rectangleParent,
+.sETTINGS {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sETTINGS {
+  flex-direction: row;
+  padding: 0 var(--padding-12xl);
+}
+.rectangleParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 18px 0;
+  font-size: var(--body-small-regular-size);
+  color: var(--color-gray-500);
+}
+.icon2,
+.indicatorIcon {
+  height: 32px;
+  width: 4px;
+  position: relative;
+}
+.icon2 {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.settings1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  line-height: 160%;
+  font-weight: 500;
+  font-family: var(--body-small-medium);
+  color: var(--color-mediumslateblue);
+  text-align: left;
+}
+.menu1 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 var(--padding-xs) var(--padding-base);
+  gap: 0 16px;
+}
+.menu,
+.sidebarMenu {
+  align-self: stretch;
+  display: flex;
+}
+.sidebarMenu {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 12px;
+}
+.menu {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-base) 0 0;
+  background-color: transparent;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon3,
+.logout {
+  position: relative;
+}
+.icon3 {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logout {
+  line-height: 160%;
+  font-weight: 500;
+}
+.frameLogout,
+.lineSeparator {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.lineSeparator {
+  align-items: center;
+  gap: 0 16px;
+}
+.frameLogout {
+  align-items: flex-start;
+  padding: 0 var(--padding-16xl);
+}
+.menuParent {
+  align-items: flex-start;
+  gap: 11px 0;
+}
+.favoriteJobsFrame,
+.frameParent,
+.menuParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.favoriteJobsFrame {
+  align-items: flex-end;
+  gap: 24px 0;
+  font-size: var(--body-normal-regular-size);
+  color: var(--color-darkslategray-100);
+}
+.frameParent {
+  align-items: flex-start;
+  gap: 42px 0;
+  font-family: var(--body-small-medium);
+}
+.patternIcon {
+  align-self: stretch;
+  height: 316px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.roundedRectangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals-0);
+  box-shadow: -8px 8px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--other-colors-untitled-border-dashboard);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.icon4,
+.logout2 {
+  position: absolute;
+}
+.logout2 {
+  top: 0;
+  left: 40px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.icon4 {
+  top: 1px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.logout1 {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+}
+.frame {
+  position: absolute;
+  bottom: 26px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profileMenu {
+  width: 233px;
+  height: 80px;
+  position: relative;
+  display: none;
+  font-size: var(--body-normal-regular-size);
+  color: var(--accents-red);
+}
+.tabMenu {
+  align-self: stretch;
+  height: 0;
+  position: relative;
+}
+.rectangleProfileContainer {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-gainsboro-400);
+}
+.ayaGazizova {
+  margin-bottom: -5px;
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.emailAddressInput {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.gazizovaemailcom {
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  line-height: 160%;
+  color: var(--color-darkslategray-200);
+  white-space: nowrap;
+  z-index: 1;
+}
+.ayaGazizovaText,
+.buttonNotification,
+.frameProfilePic {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ayaGazizovaText {
+  flex: 1;
+  flex-direction: column;
+}
+.buttonNotification,
+.frameProfilePic {
+  flex-direction: row;
+}
+.frameProfilePic {
+  flex: 1;
+  gap: 0 15px;
+}
+.buttonNotification {
+  align-self: stretch;
+  padding: 0 var(--padding-2xl) 0 var(--padding-6xl);
+}
+.sideBarDashboardApplica,
+.topNavigationBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.topNavigationBar {
+  align-self: stretch;
+  align-items: center;
+  gap: 24px 0;
+  font-size: var(--body-large-semibold-size);
+}
+.sideBarDashboardApplica {
+  width: 272px;
+  background-color: var(--color-ghostwhite);
+  box-shadow: var(--y-border);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: var(--padding-13xl) 0 var(--padding-11xl);
+  box-sizing: border-box;
+  gap: 554px 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black1);
+  font-family: var(--body-normal-regular);
+}
+@media screen and (max-width: 925px) {
+  .sideBarDashboardApplica {
+    display: none;
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .collabment {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .frameParent {
+    gap: 42px 0;
+  }
+  .sideBarDashboardApplica {
+    gap: 554px 0;
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

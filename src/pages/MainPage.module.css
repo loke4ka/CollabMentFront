@@ -1,0 +1,1200 @@
+.whyCollabment {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.testimonials {
+  width: 1466px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-16xl) var(--padding-mid);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rollingFundsFees {
+  width: 105px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.growWithThe {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.collabmentBringsTogether {
+  width: 439px;
+  height: 120px;
+  position: relative;
+  font-size: var(--display-2-size);
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.resourcesPartnershipsHelpCe {
+  flex-direction: column;
+  gap: 16px 0;
+}
+.resourcesPartnershipsHelpCe,
+.rollingFundsVentureFundsSy,
+.wishlist {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.wishlist {
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-29xl);
+}
+.rollingFundsVentureFundsSy {
+  flex-direction: row;
+  gap: 0 38px;
+}
+.helpCenter {
+  width: 119px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.span {
+  font-weight: 500;
+}
+.findThePerfectContainer,
+.ourPowerfulSearch {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.findThePerfectContainer {
+  margin: 0;
+  height: 58px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.ourPowerfulSearch {
+  width: 439px;
+  height: 96px;
+  font-size: var(--display-2-size);
+  max-width: 100%;
+}
+.headingWelcome {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px 0;
+}
+.headingWelcome,
+.headingWelcomeWrapper,
+.partnerships {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.headingWelcomeWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  min-width: 365px;
+  font-size: var(--font-size-29xl);
+}
+.partnerships {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 24px;
+}
+.div {
+  width: 122px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.transparencyAndTrust {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ourPowerfulSearch1 {
+  width: 439px;
+  height: 96px;
+  position: relative;
+  font-size: var(--display-2-size);
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.transparencyAndTrustParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+}
+.partnershipsInner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  min-width: 358px;
+  font-size: var(--font-size-29xl);
+}
+.link,
+.partnerships1,
+.partnershipsInner,
+.rollingFundsVentureFundsSyParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.partnerships1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 21px;
+}
+.link,
+.rollingFundsVentureFundsSyParent {
+  flex-direction: column;
+}
+.rollingFundsVentureFundsSyParent {
+  align-self: stretch;
+  gap: 37px 0;
+}
+.link {
+  flex: 1;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  min-width: 458px;
+}
+.linkTermsPrivacyDisclosures {
+  height: 630px;
+  width: 678px;
+  position: relative;
+  border-radius: var(--br-base);
+  object-fit: cover;
+  max-width: 100%;
+}
+.item {
+  width: 1432px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 50px;
+  max-width: 100%;
+}
+.howItWorks {
+  margin: 0;
+  width: 3373px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 235%;
+  flex-shrink: 0;
+}
+.helpCenterLink {
+  width: 1436px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ourPowerfulSearch2 {
+  height: 96px;
+  width: 439px;
+  position: absolute;
+  margin: 0 !important;
+  right: 271px;
+  bottom: 0;
+  font-size: var(--display-2-size);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.partnershipsLink {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.div1,
+.div2 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gray-1000);
+}
+.listItemFrame {
+  height: 96px;
+  width: 386px;
+  position: absolute;
+  margin: 0 !important;
+  right: -21.5px;
+  bottom: -11.5px;
+  border-radius: 23.73px;
+  background-color: var(--color-mediumslateblue);
+}
+.fueling {
+  margin: 0;
+}
+.innovation {
+  margin: 0;
+  color: var(--neutrals-0);
+}
+.fuelingInnovationTxtContainer {
+  line-break: anywhere;
+}
+.fuelingInnovation {
+  height: 189.8px;
+  position: relative;
+  letter-spacing: -1.19px;
+  line-height: 90.95px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.heading,
+.listFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.heading {
+  position: relative;
+}
+.listFrame {
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.dealsRunThrough,
+.identifyGapsIn,
+.theSolutionsThat,
+.withMoreThan {
+  margin: 0;
+}
+.withMoreThanContainer {
+  align-self: stretch;
+  height: 148px;
+  position: relative;
+  font-size: var(--font-size-mid-3);
+  letter-spacing: -0.05px;
+  line-height: 25.2px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.link1,
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.link1 {
+  align-self: stretch;
+  gap: 27px 0;
+}
+.linkWrapper {
+  width: 365px;
+  padding: var(--padding-41xl) 0 0;
+  box-sizing: border-box;
+  min-width: 365px;
+}
+.heading1 {
+  margin: 0;
+  height: 174px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -8.64px;
+  line-height: 194.4px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.assetsOnPlatform {
+  position: relative;
+  font-size: var(--font-size-base-5);
+  letter-spacing: -0.03px;
+  line-height: 24px;
+  z-index: 2;
+}
+.allyMasi {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px 0;
+}
+.parentHeader {
+  align-self: stretch;
+  height: 243px;
+  position: relative;
+  letter-spacing: -8.64px;
+  line-height: 216px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameResources,
+.vPEvents {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameResources {
+  width: 121px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-sm);
+  margin-left: -19px;
+  text-align: center;
+}
+.vPEvents {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  min-width: 155px;
+}
+.startupsContainer {
+  align-self: stretch;
+  height: 243px;
+  position: relative;
+  letter-spacing: -8.64px;
+  line-height: 216px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 2;
+}
+.fundsContainer {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  margin-left: -9px;
+  text-align: center;
+}
+.activeInvestorsFrame {
+  height: 157px;
+  position: relative;
+  letter-spacing: -8.64px;
+  line-height: 216px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 3;
+}
+.investorContainer {
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -9px;
+  text-align: center;
+}
+.b {
+  margin: 0;
+  align-self: stretch;
+  height: 270px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -8.64px;
+  line-height: 194.4px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.forInvestorsInfo {
+  width: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  margin-left: -9px;
+}
+.expectationExceeded {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  row-gap: 20px;
+}
+.invitationFrame,
+.registrationPortal {
+  position: relative;
+  letter-spacing: -4px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.invitationFrame {
+  height: 112px;
+  width: 55.7px;
+}
+.registrationPortal {
+  align-self: stretch;
+  height: 74px;
+  z-index: 1;
+}
+.activeInvestorSection {
+  height: 95px;
+  width: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  margin-left: -5px;
+}
+.k {
+  margin: 0;
+  width: 94.4px;
+  height: 125px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -4px;
+  line-height: 110px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.feesBreakdown,
+.fundsAndSyndicates {
+  display: flex;
+  justify-content: flex-start;
+}
+.fundsAndSyndicates {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin-left: -5px;
+  text-align: left;
+  font-size: var(--font-size-66xl);
+}
+.feesBreakdown {
+  align-self: stretch;
+  height: 119px;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.fundsAndSyndicates1 {
+  position: relative;
+  font-size: var(--font-size-base-4);
+  letter-spacing: -0.03px;
+  line-height: 24px;
+  text-align: left;
+  z-index: 3;
+}
+.syndicates {
+  width: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.partnershipsHub {
+  width: 57px;
+  height: 72px;
+  position: relative;
+  letter-spacing: -4px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.learningCenter {
+  flex: 1;
+  position: relative;
+  letter-spacing: -4px;
+  line-height: 73px;
+  z-index: 1;
+}
+.talishaBrantleyQuote {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.activeStartups {
+  position: relative;
+  font-size: var(--font-size-base-4);
+  letter-spacing: -0.03px;
+  line-height: 24px;
+  text-align: left;
+  z-index: 3;
+}
+.expectationExceeded1,
+.lovedTrusted {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.expectationExceeded1 {
+  align-self: stretch;
+  gap: 16px 0;
+}
+.lovedTrusted {
+  flex: 1;
+  padding: var(--padding-2xs) var(--padding-12xs) 0 0;
+}
+.k1 {
+  height: 86px;
+  width: 95px;
+  position: relative;
+  font-size: var(--font-size-66xl);
+  letter-spacing: -4px;
+  line-height: 110px;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+  margin: 0 0 0-7px;
+}
+.newSection,
+.ventureFunds {
+  width: 198px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ventureFunds {
+  width: 550px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-81xl);
+}
+.frameGroup,
+.headingForStartups {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.headingForStartups {
+  width: 578px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 133px 0;
+  min-width: 578px;
+  font-size: var(--font-size-197xl);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.byTheNumbers {
+  height: 22px;
+  position: relative;
+  font-size: var(--font-size-mid-3);
+  letter-spacing: -0.05px;
+  line-height: 25.2px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: -28px;
+}
+.frameParent,
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.text {
+  width: 1324px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-smi) var(--padding-xs);
+  box-sizing: border-box;
+  font-size: 73.7px;
+}
+.frameNode {
+  width: 56px;
+  height: 74px;
+  position: relative;
+  letter-spacing: -4px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.careers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.headingNode,
+.k2 {
+  position: relative;
+  letter-spacing: -4px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.headingNode {
+  width: 55px;
+  line-height: 73px;
+  justify-content: center;
+  z-index: 1;
+}
+.k2 {
+  margin: 0;
+  width: 94px;
+  height: 86px;
+  font-size: inherit;
+  line-height: 110px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+}
+.aboutUs,
+.activeInvestorSection1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.activeInvestorSection1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  text-align: left;
+  font-size: var(--font-size-66xl);
+}
+.aboutUs {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.activeInvestors {
+  position: relative;
+  font-size: var(--font-size-base-4);
+  letter-spacing: -0.03px;
+  line-height: 24px;
+  text-align: left;
+  z-index: 3;
+}
+.educationCenter {
+  width: 197px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px 0;
+  min-width: 197px;
+}
+.b1,
+.listNode,
+.listNode1 {
+  position: relative;
+  letter-spacing: -4px;
+  flex-shrink: 0;
+}
+.listNode {
+  margin: 0;
+  font-size: inherit;
+  line-height: 100px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.b1,
+.listNode1 {
+  display: flex;
+  align-items: center;
+}
+.listNode1 {
+  height: 112px;
+  flex: 1;
+  line-height: 100px;
+  text-align: center;
+  justify-content: center;
+  z-index: 1;
+  margin-left: -2px;
+}
+.b1 {
+  margin: 0;
+  height: 82px;
+  font-size: inherit;
+  line-height: 110px;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
+  z-index: 2;
+}
+.bWrapper,
+.footerForMain {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bWrapper {
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+  margin-left: -2px;
+}
+.footerForMain {
+  width: 165px;
+  height: 108px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+}
+.raisedByActive {
+  position: relative;
+  font-size: var(--font-size-base-4);
+  letter-spacing: -0.03px;
+  line-height: 24px;
+  white-space: nowrap;
+  z-index: 3;
+}
+.investorCollabment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 179px;
+  text-align: left;
+}
+.helpCenter1,
+.numbersFrame {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.helpCenter1 {
+  width: 532px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-81xl);
+}
+.numbersFrame {
+  width: 1776px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: 62px 0;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+.careersLinkChild {
+  height: 137px;
+  width: 625px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 51.8px;
+  left: -17.3px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-mediumslateblue);
+}
+.span1 {
+  color: var(--color-black1);
+}
+.collabment {
+  font-size: var(--font-size-83xl-4);
+  color: var(--neutrals-0);
+}
+.welcomeToCollabmentContainer {
+  height: 340px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.aboutusLink,
+.careersLink,
+.mainpage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.careersLink {
+  flex: 1;
+  position: relative;
+}
+.aboutusLink,
+.mainpage {
+  width: 660px;
+  padding: 0 0 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.mainpage {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutrals-0);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-xs) 0;
+  gap: 63px 58px;
+  min-width: 1900px;
+  max-width: 1900px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-57xl-8);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 1920px) {
+  .mainpage {
+    max-width: 100%;
+    height: 8900px;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .linkTermsPrivacyDisclosures {
+    flex: 1;
+  }
+  .item {
+    flex-wrap: wrap;
+  }
+  .headingForStartups,
+  .linkWrapper {
+    flex: 1;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .mainpage {
+    gap: 63px 58px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .rollingFundsFees,
+  .whyCollabment {
+    font-size: var(--font-size-29xl);
+  }
+  .growWithThe {
+    font-size: var(--font-size-19xl);
+  }
+  .rollingFundsVentureFundsSy {
+    flex-wrap: wrap;
+    gap: 0 38px;
+  }
+  .helpCenter {
+    font-size: var(--font-size-29xl);
+  }
+  .findThePerfectContainer {
+    font-size: var(--font-size-19xl);
+  }
+  .partnerships {
+    flex-wrap: wrap;
+  }
+  .div {
+    font-size: var(--font-size-29xl);
+  }
+  .transparencyAndTrust {
+    font-size: var(--font-size-19xl);
+  }
+  .partnerships1 {
+    flex-wrap: wrap;
+  }
+  .rollingFundsVentureFundsSyParent {
+    gap: 37px 0;
+  }
+  .link {
+    min-width: 100%;
+  }
+  .item {
+    gap: 0 50px;
+  }
+  .howItWorks {
+    font-size: var(--font-size-29xl);
+  }
+  .fuelingInnovation {
+    font-size: var(--font-size-40xl);
+    line-height: 73px;
+  }
+  .heading1 {
+    font-size: var(--font-size-67xl);
+    line-height: 117px;
+  }
+  .activeInvestorsFrame,
+  .b,
+  .parentHeader,
+  .startupsContainer {
+    font-size: var(--font-size-67xl);
+    line-height: 130px;
+  }
+  .b {
+    line-height: 117px;
+  }
+  .expectationExceeded {
+    flex-wrap: wrap;
+  }
+  .invitationFrame,
+  .registrationPortal {
+    font-size: var(--font-size-31xl);
+    line-height: 60px;
+  }
+  .k {
+    font-size: var(--font-size-23xl);
+    line-height: 66px;
+  }
+  .learningCenter,
+  .partnershipsHub {
+    font-size: var(--font-size-31xl);
+    line-height: 60px;
+  }
+  .k1 {
+    font-size: var(--font-size-23xl);
+    line-height: 66px;
+  }
+  .ventureFunds {
+    flex-wrap: wrap;
+  }
+  .headingForStartups {
+    gap: 133px 0;
+    min-width: 100%;
+  }
+  .frameNode,
+  .headingNode {
+    font-size: var(--font-size-31xl);
+    line-height: 60px;
+  }
+  .k2 {
+    font-size: var(--font-size-23xl);
+    line-height: 66px;
+  }
+  .b1,
+  .listNode,
+  .listNode1 {
+    font-size: var(--font-size-31xl);
+    line-height: 66px;
+  }
+  .b1,
+  .listNode1 {
+    line-height: 60px;
+  }
+  .b1 {
+    line-height: 66px;
+  }
+  .numbersFrame {
+    gap: 62px 0;
+  }
+  .welcomeToCollabmentContainer {
+    font-size: var(--font-size-42xl);
+  }
+  .aboutusLink {
+    max-width: calc(100% - 18px);
+  }
+  .mainpage {
+    gap: 63px 58px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .growWithThe,
+  .rollingFundsFees,
+  .whyCollabment {
+    font-size: var(--font-size-10xl);
+  }
+  .collabmentBringsTogether {
+    font-size: var(--body-normal-regular-size);
+  }
+  .findThePerfectContainer,
+  .helpCenter {
+    font-size: var(--font-size-10xl);
+  }
+  .ourPowerfulSearch {
+    font-size: var(--body-normal-regular-size);
+  }
+  .headingWelcomeWrapper {
+    min-width: 100%;
+  }
+  .div,
+  .transparencyAndTrust {
+    font-size: var(--font-size-10xl);
+  }
+  .ourPowerfulSearch1 {
+    font-size: var(--body-normal-regular-size);
+  }
+  .partnershipsInner {
+    min-width: 100%;
+  }
+  .howItWorks {
+    font-size: var(--font-size-10xl);
+  }
+  .ourPowerfulSearch2 {
+    font-size: var(--body-normal-regular-size);
+  }
+  .fuelingInnovation {
+    font-size: var(--font-size-25xl);
+    line-height: 55px;
+  }
+  .linkWrapper {
+    padding-top: var(--padding-20xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .heading1 {
+    font-size: var(--font-size-35xl);
+    line-height: 78px;
+  }
+  .activeInvestorsFrame,
+  .b,
+  .parentHeader,
+  .startupsContainer {
+    font-size: var(--font-size-35xl);
+    line-height: 86px;
+  }
+  .b {
+    line-height: 78px;
+  }
+  .invitationFrame,
+  .registrationPortal {
+    font-size: var(--font-size-11xl);
+    line-height: 40px;
+  }
+  .k {
+    font-size: var(--font-size-6xl);
+    line-height: 44px;
+  }
+  .learningCenter,
+  .partnershipsHub {
+    font-size: var(--font-size-11xl);
+    line-height: 40px;
+  }
+  .k1 {
+    font-size: var(--font-size-6xl);
+    line-height: 44px;
+  }
+  .headingForStartups {
+    gap: 133px 0;
+  }
+  .frameNode,
+  .headingNode {
+    font-size: var(--font-size-11xl);
+    line-height: 40px;
+  }
+  .k2 {
+    font-size: var(--font-size-6xl);
+    line-height: 44px;
+  }
+  .educationCenter {
+    flex: 1;
+  }
+  .b1,
+  .listNode,
+  .listNode1 {
+    font-size: var(--font-size-11xl);
+    line-height: 44px;
+  }
+  .b1,
+  .listNode1 {
+    line-height: 40px;
+  }
+  .b1 {
+    line-height: 44px;
+  }
+  .investorCollabment {
+    flex: 1;
+  }
+  .helpCenter1 {
+    flex-wrap: wrap;
+  }
+  .numbersFrame {
+    gap: 62px 0;
+  }
+  .welcomeToCollabmentContainer {
+    font-size: var(--font-size-27xl);
+  }
+  .mainpage {
+    max-width: 100%;
+  }
+}

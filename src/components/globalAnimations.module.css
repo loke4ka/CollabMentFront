@@ -1,0 +1,117 @@
+.logoLink {
+    position: relative;
+    font-size: var(--font-size-smi);
+    font-family: var(--body-small-medium);
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .logoLink {
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .logoLink::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.4s ease;
+  }
+  
+  .logoLink:hover::after {
+    background-color: var(--color-aliceblue-100);
+  }
+
+  .NavLink {
+    position: relative;
+    font-size: var(--font-size-smi);
+    font-family: var(--body-small-medium);
+    text-align: left;
+    cursor: pointer;
+    color: black; 
+  }
+  
+  .NavLink {
+    position: relative;
+    display: inline-block;
+    color: black; 
+    text-decoration: none;
+  }
+
+  .NavLink::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    background: var(--color-mediumslateblue);
+    opacity: 1;
+    transition: all 0.4s;
+    z-index: 1; 
+  }
+  /* --color-steelblue на случаи если нужно как с search */ 
+  .NavLink:hover::before {
+    background: var(--color-mediumslateblue); 
+    opacity: 1;
+    height: 100%;
+    transition: all 0.4s;
+  }
+
+  .NavLink:hover > div {
+    transition: all 0.4s;
+    color: white;
+  }
+
+  .NavLink:hover > div img{
+    transition: all 0.4s;
+    filter: invert(100%) sepia(3%) saturate(7500%) hue-rotate(102deg) brightness(124%) contrast(120%);
+  }
+  
+  .ProfileLink{
+    position: relative;
+    font-size: var(--font-size-smi);
+    font-family: var(--body-small-medium);
+    text-align: left;
+    cursor: pointer;
+    color: black;
+  }
+
+  .ProfileLink:hover{
+    color: var(--color-mediumslateblue);
+    transition: all 0.4s;
+  }
+
+
+  .NavLinkSettings {
+    font-size: var(--body-normal-regular-size);
+    color: var(--neutrals-60);
+    font-family: var(--body-small-medium);
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  
+  .NavLinkSettings::after {
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    bottom: -2px; 
+    width: 0; 
+    height: 2px; 
+    background-color: var(--neutrals-60);
+    transition: width 0.4s ease-in-out; 
+    pointer-events: none; 
+  }
+  
+  .NavLinkSettings:hover::after {
+    width: 100%; 
+  }
+  
+  

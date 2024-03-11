@@ -1,0 +1,105 @@
+.dateOfStudy {
+  line-height: 160%;
+  font-weight: 600;
+}
+.dateOfStudy,
+.icon,
+.input {
+  position: relative;
+}
+.input {
+  width: 190px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-normal-regular);
+  font-size: var(--body-normal-regular-size);
+  background-color: transparent;
+  height: 26px;
+  line-height: 160%;
+  color: var(--neutrals-80);
+  text-align: left;
+  display: inline-block;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dropdown {
+  align-self: stretch;
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutrals-20);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-mini);
+  gap: var(--gap-base);
+}
+.textfield {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px 0;
+  min-width: 168px;
+}
+.span {
+  color: var(--accents-red);
+}
+.namesOfTheContainer {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.icon1,
+.select {
+  position: relative;
+}
+.select {
+  line-height: 160%;
+}
+.icon1 {
+  height: 20px;
+  width: 20px;
+}
+.dropdown1 {
+  align-self: stretch;
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutrals-20);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-xl);
+  font-family: var(--body-normal-regular);
+}
+.row3,
+.textfield1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 4px 0;
+  min-width: 168px;
+}
+.row3 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 24px;
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+  color: var(--neutrals-80);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 750px) {
+  .row3 {
+    flex-wrap: wrap;
+  }
+}

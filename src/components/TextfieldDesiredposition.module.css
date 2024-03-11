@@ -1,0 +1,123 @@
+.caption {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.tabMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.personalInformation {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.tabMenuChild {
+  align-self: stretch;
+  height: 4px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabMenu1 {
+  width: 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px 0;
+  color: var(--neutrals-100);
+}
+.caption1,
+.loginDetails {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.caption1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.tabMenu2 {
+  height: 26px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: var(--body-normal-regular);
+}
+.caption2 {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.tabMenu3 {
+  height: 26px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: var(--body-normal-regular);
+}
+.caption3 {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.tabMenu4 {
+  height: 26px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: var(--body-normal-regular);
+}
+.tabs,
+.textfieldDesiredposition {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tabs {
+  width: 1168px;
+  background-color: var(--color-white);
+  box-shadow: var(--x-border);
+  flex-direction: row;
+  gap: 0 40px;
+  max-width: 106%;
+  flex-shrink: 0;
+}
+.textfieldDesiredposition {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-13xl) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+  color: var(--neutrals-60);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 750px) {
+  .tabs {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tabs {
+    gap: 0 40px;
+  }
+}

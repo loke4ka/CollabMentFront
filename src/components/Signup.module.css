@@ -1,0 +1,96 @@
+.create,
+.step1 {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 26px;
+}
+.create {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -2px;
+  line-height: 70.4px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.helpCenter {
+  margin: 0;
+  height: 43px;
+  width: 41px;
+}
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 43px;
+  font-size: var(--font-size-40xl);
+}
+.registrationAndProfile {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 20.8px;
+}
+.containerFrame,
+.containerFrameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.containerFrame {
+  align-self: stretch;
+  gap: 10px 0;
+}
+.containerFrameWrapper {
+  width: 281px;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.equityList {
+  height: 229px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-365xl);
+  background-color: var(--color-mediumslateblue-100);
+  min-width: 682px;
+  max-width: 100%;
+}
+.signup {
+  width: 1408px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 77px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-large-semibold-size);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 950px) {
+  .create {
+    font-size: var(--font-size-28xl);
+    line-height: 56px;
+  }
+  .equityList {
+    min-width: 100%;
+  }
+  .signup {
+    gap: 0 77px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .create {
+    font-size: var(--font-size-16xl);
+    line-height: 42px;
+  }
+  .listContainer {
+    gap: 0 43px;
+  }
+  .signup {
+    gap: 0 77px;
+  }
+}

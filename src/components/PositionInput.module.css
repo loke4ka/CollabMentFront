@@ -1,0 +1,90 @@
+.certificatesAndAchievements {
+  width: 277px;
+  position: relative;
+  line-height: 112.4%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 81px;
+  width: 313px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  border: 2px dashed var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: none;
+}
+.featherIconsPlusCircle {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.addAnotherWorkExperienceBt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.addCertificates {
+  margin-bottom: -2px;
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  z-index: 1;
+}
+.addCertificatesFrame {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.browseFileOr {
+  position: relative;
+  font-size: var(--body-small-regular-size);
+  line-height: 160%;
+  font-weight: 500;
+  color: var(--color-darkgray);
+  z-index: 1;
+}
+.certificatesAndAchievements1,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  border-radius: var(--br-7xs);
+  border: 2px dashed var(--color-gainsboro-200);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-mini) var(--padding-7xl) var(--padding-xl)
+    var(--padding-6xl);
+  gap: var(--gap-base);
+  color: var(--color-midnightblue);
+}
+.positionInput {
+  width: 678px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+  color: var(--color-dimgray-200);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 750px) {
+  .positionInput {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,669 @@
+.getAProject {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 46px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.pleaseFillThe {
+  width: 566.4px;
+  height: 70px;
+  position: relative;
+  font-size: var(--body-large-semibold-size);
+  line-height: 30px;
+  color: var(--neutral-600);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.registerFrame {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.formFrameChild {
+  width: 698px;
+  height: 606px;
+  position: relative;
+  border-radius: var(--br-15xl);
+  background-color: var(--neutrals-0);
+  box-shadow: var(--cards-short-default);
+  border: 1px solid var(--neutral-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.ellipseGroupA {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.2px;
+  right: 0.5px;
+  bottom: -0.2px;
+  left: -0.5px;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-100);
+  z-index: 1;
+}
+.rectangleGroup {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 2;
+}
+.divider {
+  width: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-base) var(--padding-4xs)
+    var(--padding-sm);
+  box-sizing: border-box;
+  position: relative;
+  color: var(--neutrals-0);
+}
+.contactInfoFrameChild {
+  position: absolute;
+  top: -0.3px;
+  left: -0.5px;
+  border-radius: var(--br-21xl);
+  background-color: var(--neutral-300);
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+}
+.backgroundFrame,
+.contactInfoFrame {
+  height: 6px;
+  border-radius: var(--br-21xl);
+}
+.backgroundFrame {
+  position: absolute;
+  top: -0.3px;
+  left: -0.5px;
+  background-color: var(--color-mediumslateblue-100);
+  width: 49px;
+  z-index: 2;
+}
+.contactInfoFrame {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--neutral-300);
+  z-index: 1;
+}
+.mainButtonFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  min-width: 64px;
+}
+.dividerChild {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--neutral-300);
+  z-index: 1;
+}
+.div {
+  position: relative;
+  line-height: 23px;
+  z-index: 2;
+  margin-top: -30px;
+}
+.divider1 {
+  height: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dividerItem {
+  align-self: stretch;
+  height: 6px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--neutral-300);
+  z-index: 1;
+}
+.divider2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-11xs) 0;
+  box-sizing: border-box;
+  min-width: 64px;
+}
+.dividerInner {
+  position: absolute;
+  top: 0.2px;
+  left: -0.3px;
+  border-radius: 50%;
+  background-color: var(--neutral-300);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.div1 {
+  position: absolute;
+  top: 4px;
+  left: 11px;
+  line-height: 23px;
+  z-index: 2;
+}
+.divider3 {
+  height: 34px;
+  width: 34px;
+  position: relative;
+}
+.rectangleDiv {
+  align-self: stretch;
+  height: 6px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--neutral-300);
+  z-index: 1;
+}
+.divider4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-11xs) 0;
+  box-sizing: border-box;
+  min-width: 64px;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 0.2px;
+  left: -0.2px;
+  border-radius: 50%;
+  background-color: var(--neutral-300);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.div2 {
+  position: absolute;
+  top: 4px;
+  left: 11px;
+  line-height: 23px;
+  z-index: 2;
+}
+.divider5 {
+  height: 34px;
+  width: 34px;
+  position: relative;
+}
+.dividerParent,
+.labelFrameB {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dividerParent {
+  flex: 1;
+  align-items: center;
+  padding: 0 var(--padding-9xs) 0 0;
+  gap: 0 17px;
+}
+.labelFrameB {
+  width: 541px;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  flex-shrink: 0;
+}
+.labelFrameA,
+.textFrameA {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.textFrameA {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--neutral-400);
+  z-index: 1;
+}
+.labelFrameA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xl);
+  gap: 32px 0;
+  max-width: 100%;
+  color: var(--neutral-600);
+}
+.contactDetails {
+  width: 202.6px;
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  position: relative;
+  font-size: var(--body-large-semibold-size);
+  line-height: 30px;
+  color: var(--neutral-600);
+  z-index: 1;
+}
+.placeholderTextFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px 0;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.name {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  z-index: 1;
+}
+.johnCarterChild {
+  height: 66px;
+  width: 284px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutral-300);
+  box-sizing: border-box;
+  display: none;
+}
+.johnCarter1 {
+  width: 101px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-medium);
+  font-size: var(--body-large-semibold-size);
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  line-height: 20px;
+  color: var(--neutral-600);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.johnCarterItem {
+  height: 25.8px;
+  width: 20.3px;
+  position: relative;
+  z-index: 2;
+}
+.formInput,
+.johnCarter {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.johnCarter {
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutral-300);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-4xl) var(--padding-2xl)
+    var(--padding-xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.formInput {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 18px 0;
+}
+.phoneNumber {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  z-index: 1;
+}
+.companyNameChild {
+  height: 66px;
+  width: 284px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutral-300);
+  box-sizing: border-box;
+  display: none;
+}
+.group,
+.groupIcon {
+  position: relative;
+  z-index: 2;
+}
+.group {
+  width: 185px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-medium);
+  font-size: var(--body-large-semibold-size);
+  background-color: transparent;
+  height: 20px;
+  line-height: 20px;
+  color: var(--neutral-600);
+  text-align: left;
+  display: inline-block;
+}
+.groupIcon {
+  height: 26px;
+  width: 14.7px;
+}
+.companyName {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutral-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-2xl) var(--padding-xl)
+    var(--padding-xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.phoneNumberCompany,
+.primaryButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.phoneNumberCompany {
+  align-self: stretch;
+  gap: 17px 0;
+}
+.primaryButton {
+  flex: 1;
+  gap: 44px 0;
+  min-width: 185px;
+}
+.email {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  z-index: 1;
+}
+.frameChild {
+  height: 66px;
+  width: 284px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutral-300);
+  box-sizing: border-box;
+  display: none;
+}
+.emailAddress,
+.groupIcon1 {
+  position: relative;
+  z-index: 2;
+}
+.emailAddress {
+  width: 119px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-medium);
+  font-size: var(--body-large-semibold-size);
+  background-color: transparent;
+  height: 20px;
+  line-height: 20px;
+  color: var(--neutral-600);
+  text-align: left;
+  display: inline-block;
+}
+.groupIcon1 {
+  height: 16px;
+  width: 23px;
+}
+.emailParent,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+}
+.rectangleParent {
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutral-300);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-2xl) var(--padding-5xl) var(--padding-6xl)
+    var(--padding-xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.emailParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px 0;
+}
+.company {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  z-index: 1;
+}
+.frameItem {
+  height: 66px;
+  width: 284px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutral-300);
+  box-sizing: border-box;
+  display: none;
+}
+.companyName1,
+.frameInner {
+  position: relative;
+  z-index: 2;
+}
+.companyName1 {
+  width: 133px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-small-medium);
+  font-size: var(--body-large-semibold-size);
+  background-color: transparent;
+  height: 20px;
+  line-height: 20px;
+  color: var(--neutral-600);
+  text-align: left;
+  display: inline-block;
+}
+.frameInner {
+  height: 28.9px;
+  width: 14.5px;
+}
+.rectangleContainer {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals-0);
+  border: 1px solid var(--neutral-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-mid) var(--padding-5xl) var(--padding-2xl)
+    var(--padding-2xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.companyParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 17px 0;
+}
+.companyParent,
+.formFrame,
+.inputGroupFrame,
+.primaryButton1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.primaryButton1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 44px 0;
+  min-width: 185px;
+}
+.formFrame,
+.inputGroupFrame {
+  align-self: stretch;
+}
+.inputGroupFrame {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 28px;
+  font-size: var(--body-large-semibold-size);
+}
+.formFrame {
+  border-radius: var(--br-15xl);
+  background-color: var(--neutrals-0);
+  box-shadow: var(--cards-short-default);
+  border: 1px solid var(--neutral-300);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-14xl) var(--padding-36xl) var(--padding-61xl)
+    var(--padding-28xl);
+  gap: 39px 0;
+  max-width: 100%;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--body-small-medium);
+  color: var(--neutrals-0);
+  text-align: center;
+}
+.primaryBtn,
+.primaryBtn1 {
+  display: flex;
+  flex-direction: row;
+}
+.primaryBtn1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-17xl) var(--padding-2xl)
+    var(--padding-21xl);
+  background-color: var(--color-mediumslateblue-100);
+  border-radius: var(--br-37xl);
+  box-shadow: 0 3px 12px rgba(74, 58, 255, 0.18);
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.primaryBtn1:hover {
+  background-color: var(--color-dodgerblue-100);
+}
+.primaryBtn {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.innerFrame,
+.loginRegister {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.innerFrame {
+  width: 698px;
+  align-items: flex-end;
+  gap: 32px 0;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+}
+.loginRegister {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutrals-0);
+  overflow: hidden;
+  align-items: center;
+  padding: 118px var(--padding-3xl) var(--padding-75xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 42px 0;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+  color: var(--neutral-800);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 750px) {
+  .getAProject {
+    font-size: var(--font-size-8xl);
+    line-height: 37px;
+  }
+  .formFrame {
+    gap: 39px 0;
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .innerFrame {
+    gap: 32px 0;
+  }
+  .loginRegister {
+    gap: 42px 0;
+  }
+}
+@media screen and (max-width: 675px) {
+  .dividerParent {
+    flex-wrap: wrap;
+  }
+  .labelFrameA {
+    gap: 32px 0;
+  }
+  .formFrame {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactDetails,
+  .getAProject {
+    font-size: var(--display-2-size);
+    line-height: 28px;
+  }
+  .contactDetails {
+    font-size: var(--font-size-lgi);
+  }
+  .primaryButton,
+  .primaryButton1 {
+    gap: 44px 0;
+  }
+}

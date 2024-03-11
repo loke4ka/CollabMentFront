@@ -1,0 +1,215 @@
+.interaction,
+.step2 {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 26px;
+}
+.interaction {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -2px;
+  line-height: 70.4px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.overviewSubheading {
+  margin: 0;
+  height: 47px;
+  width: 41px;
+}
+.linkItemSignUp {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 19px;
+  font-size: var(--font-size-40xl);
+}
+.startupsCanShowcase {
+  flex: 1;
+  position: relative;
+  line-height: 20.8px;
+}
+.raiseSubheading,
+.step2Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.raiseSubheading {
+  width: 285px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+}
+.step2Parent {
+  flex-direction: column;
+  gap: 10px 0;
+  max-width: 100%;
+}
+.syndicatesSubheading {
+  align-self: stretch;
+  height: 229px;
+  position: relative;
+  border-radius: var(--br-365xl);
+  background-color: var(--color-black1);
+}
+.headerForMain,
+.ventureFundsSubheading {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ventureFundsSubheading {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  min-width: 682px;
+}
+.headerForMain {
+  width: 1410px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0 21px;
+}
+.div {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gray-1000);
+}
+.build,
+.step21 {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 26px;
+}
+.build {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -2px;
+  line-height: 70.4px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.vectorIcon {
+  height: 41.4px;
+  width: 41.4px;
+  position: relative;
+}
+.careersSubheading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 26px;
+  font-size: var(--font-size-40xl);
+}
+.buildingASuccessful {
+  flex: 1;
+  position: relative;
+  line-height: 20.8px;
+}
+.educationCenterSubheading,
+.helpCenterSubheading,
+.listFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listFrame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  font-size: var(--font-size-mini);
+}
+.educationCenterSubheading,
+.helpCenterSubheading {
+  flex-direction: column;
+}
+.educationCenterSubheading {
+  align-self: stretch;
+  gap: 10px 0;
+}
+.helpCenterSubheading {
+  width: 283px;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.partnershipsSubheadingChild {
+  height: 229px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-365xl);
+  background-color: var(--color-gainsboro-400);
+  min-width: 682px;
+  max-width: 100%;
+}
+.banking,
+.partnershipsSubheading {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.partnershipsSubheading {
+  width: 1408px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 75px;
+}
+.banking {
+  width: 1608px;
+  flex-direction: column;
+  align-items: center;
+  gap: 63px 0;
+  text-align: left;
+  font-size: var(--body-large-semibold-size);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 950px) {
+  .interaction {
+    font-size: var(--font-size-28xl);
+    line-height: 56px;
+  }
+  .ventureFundsSubheading {
+    min-width: 100%;
+  }
+  .build {
+    font-size: var(--font-size-28xl);
+    line-height: 56px;
+  }
+  .partnershipsSubheadingChild {
+    min-width: 100%;
+  }
+  .partnershipsSubheading {
+    gap: 0 75px;
+  }
+  .banking {
+    gap: 63px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .interaction {
+    font-size: var(--font-size-16xl);
+    line-height: 42px;
+  }
+  .linkItemSignUp {
+    flex-wrap: wrap;
+  }
+  .build {
+    font-size: var(--font-size-16xl);
+    line-height: 42px;
+  }
+  .partnershipsSubheading {
+    gap: 0 75px;
+  }
+  .banking {
+    gap: 63px 0;
+  }
+}

@@ -1,0 +1,84 @@
+.profileChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutrals-0);
+}
+.line {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+}
+.lineWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.rectangleIcon {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.aGazizova,
+.you {
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.aGazizova {
+  font-weight: 500;
+  white-space: nowrap;
+}
+.you {
+  color: var(--color-gray-200);
+}
+.other {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0 12px;
+}
+.other,
+.otherWrapper,
+.profile {
+  display: flex;
+  justify-content: flex-start;
+}
+.otherWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-mid);
+}
+.profile {
+  margin-top: -80px;
+  align-self: stretch;
+  height: 80px;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  gap: var(--gap-mini);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+  font-family: var(--body-small-medium);
+}

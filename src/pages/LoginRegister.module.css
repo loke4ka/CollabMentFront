@@ -1,0 +1,540 @@
+.tablersteamIcon {
+  height: 45.6px;
+  width: 45.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.collabment,
+.tablersteamIcon {
+  position: relative;
+}
+.logoColl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 5px;
+}
+.signIn,
+.welcomeToCollabment {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-family: var(--body-small-medium);
+  color: var(--color-black1);
+  text-align: left;
+}
+.signIn {
+  margin: 0;
+  font-size: var(--font-size-36xl);
+  font-weight: 500;
+}
+.emailOrUsername {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px 0;
+  min-width: 236px;
+}
+.noAccount,
+.signUp {
+  margin: 0;
+  color: var(--color-gray-1200);
+}
+.signUp {
+  color: var(--color-dodgerblue-300);
+}
+.noAccountText {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-family: var(--body-small-medium);
+  text-align: left;
+  cursor: pointer;
+}
+
+.noAccountText {
+  position: relative;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.noAccountText::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  background-color: transparent;
+  transition: background-color 0.4s ease;
+}
+
+.noAccountText:hover::after {
+  background-color: var(--color-aliceblue-100);
+}
+
+
+
+
+.forgotPassword {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-family: var(--body-small-medium);
+  text-align: left;
+  cursor: pointer;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.forgotPassword {
+  position: relative;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.forgotPassword::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  background-color: transparent;
+  transition: background-color 0.4s ease;
+}
+
+.forgotPassword:hover::after {
+  background-color: var(--color-aliceblue-100);
+}
+
+.forgotPassword{
+  cursor: pointer;
+}
+
+.inputFrame,
+.noAccountText {
+  display: flex;
+  align-items: flex-start;
+}
+.noAccountText {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.inputFrame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameChild {
+  height: 55px;
+  width: 298px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-aliceblue-100);
+  display: none;
+}
+.googleIcon,
+.signInWith {
+  position: relative;
+  z-index: 1;
+}
+.googleIcon {
+  height: 26px;
+  width: 26px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.signInWith {
+  font-size: var(--body-normal-regular-size);
+  font-family: var(--body-small-medium);
+  color: var(--color-mediumslateblue-100);
+  text-align: left;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-13xl) var(--padding-sm);
+  background-color: var(--color-aliceblue-100);
+  flex: 1;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  min-width: 172px;
+  white-space: nowrap;
+}
+.rectangleParent:hover {
+  background-color: #cfd9e6;
+}
+.passwordInputLabelChild,
+.passwordInputLabelItem {
+  height: 55px;
+  width: 60px;
+  position: relative;
+  min-height: 55px;
+}
+.inputGroup,
+.passwordInputLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 13px;
+}
+.inputGroup {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 0 20px;
+}
+.enterYourUsername {
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  font-family: var(--font-montserrat);
+  color: var(--color-black1);
+  text-align: left;
+}
+.textInputRectangle {
+  border: 1px solid var(--color-mediumslateblue-100);
+  outline: 0;
+  background-color: var(--neutrals-0);
+  align-self: stretch;
+  height: 57px;
+  position: relative;
+  border-radius: var(--br-base);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.usernameOrEmail {
+  width: 302px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 19px;
+  left: 25px;
+  font-size: var(--body-small-regular-size);
+  font-weight: 300;
+  font-family: var(--body-small-medium);
+  color: var(--color-gray-1300);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.enterYourUsernameOrEmailAParent,
+.googleSignIn {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.enterYourUsernameOrEmailAParent {
+  height: 92px;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 17px 0;
+}
+.googleSignIn {
+  gap: 52px 0;
+}
+.enterYourPassword {
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  font-family: var(--body-small-medium);
+  color: var(--color-black1);
+  text-align: left;
+}
+.rectangleShape {
+  border: 1px solid var(--color-darkgray-100);
+  outline: 0;
+  background-color: var(--neutrals-0);
+  align-self: stretch;
+  height: 57px;
+  position: relative;
+  border-radius: var(--br-base);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.password {
+  position: absolute;
+  margin: 0 !important;
+  bottom: 19px;
+  left: 25px;
+  font-size: var(--body-small-regular-size);
+  font-weight: 300;
+  font-family: var(--font-montserrat);
+  color: var(--color-gray-1300);
+  text-align: left;
+  z-index: 1;
+}
+.enterYourPasswordParent,
+.passwordInputFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.enterYourPasswordParent {
+  height: 92px;
+  flex: 1;
+  flex-direction: column;
+  padding: 0;
+  position: relative;
+  gap: 18px 0;
+}
+.passwordInputFrame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 0;
+}
+.forgotPassword {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-montserrat);
+  color: var(--color-mediumslateblue-100);
+  text-align: left;
+}
+.loginFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+}
+.large {
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--body-small-medium);
+  color: var(--neutrals-0);
+  text-align: left;
+}
+.buttonsoliddefaultlargemai {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) var(--padding-3xl) var(--padding-4xl);
+  background-color: var(--color-mediumslateblue-100);
+  flex: 1;
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.buttonsoliddefaultlargemai:hover {
+  background-color: var(--color-dodgerblue-100);
+}
+.fRAME,
+.largeButton {
+  justify-content: flex-start;
+}
+.largeButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fRAME {
+  margin: 0;
+  width: 455px;
+  flex-direction: column;
+  gap: 38px 0;
+}
+.collaborationText,
+.fRAME,
+.registerFrame {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.collaborationText {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.registerFrame {
+  width: 504px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 49px 0;
+  min-width: 504px;
+}
+.img,
+.loginRegisterChild {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.loginRegisterChild {
+  height: 741px;
+  width: 539px;
+  border-radius: var(--br-21xl);
+  background-color: var(--neutrals-0);
+  box-shadow: 0 4px 35px rgba(0, 0, 0, 0.08);
+}
+.img {
+  height: 825px;
+  width: 659px;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-ghostwhite);
+  z-index: 0;
+}
+.texte {
+  height: 12px;
+  width: 42px;
+  display: none;
+  z-index: 1;
+}
+.yourCommunity {
+  font-family: var(--font-poppins);
+}
+.findAJobContainer {
+  margin: 0;
+  width: 504px;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+  font-family: inherit;
+}
+.icon {
+  height: 563px;
+  width: 739.9px;
+  position: absolute;
+  margin: 0 !important;
+  right: -80.9px;
+  bottom: -5px;
+  object-fit: cover;
+  z-index: 2;
+}
+.imgParent,
+.loginRegister {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.imgParent {
+  flex: 1;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-ghostwhite);
+  padding: var(--padding-63xl) var(--padding-32xl);
+  min-width: 428px;
+  min-height: 825px;
+  max-width: 100%;
+  font-size: var(--font-size-18xl);
+  color: var(--gray-02-100);
+}
+.loginRegister {
+  width: 100%;
+  background-color: var(--neutrals-0);
+  overflow: hidden;
+  padding: var(--padding-19xl) var(--padding-32xl) var(--padding-18xl)
+    var(--padding-78xl);
+  gap: 0 129px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm-8);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 1125px) {
+  .registerFrame {
+    flex: 1;
+  }
+  .loginRegister {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .signIn {
+    font-size: var(--font-size-25xl);
+  }
+  .findAJobContainer {
+    font-size: var(--font-size-11xl);
+    line-height: 41px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .registerFrame {
+    gap: 49px 0;
+    min-width: 100%;
+  }
+  .imgParent,
+  .loginRegister {
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .imgParent {
+    padding-left: var(--padding-6xl);
+    min-width: 100%;
+  }
+  .loginRegister {
+    gap: 0 129px;
+    padding-left: var(--padding-29xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeToCollabment {
+    font-size: var(--font-size-mid);
+  }
+  .signIn {
+    font-size: var(--font-size-14xl);
+  }
+  .emailOrUsername {
+    flex: 1;
+  }
+  .inputFrame,
+  .inputGroup {
+    flex-wrap: wrap;
+  }
+  .googleSignIn {
+    gap: 52px 0;
+  }
+  .fRAME {
+    gap: 38px 0;
+  }
+  .findAJobContainer {
+    font-size: var(--font-size-3xl);
+    line-height: 31px;
+  }
+  .loginRegister {
+    gap: 0 129px;
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

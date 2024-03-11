@@ -1,0 +1,107 @@
+.getAProject {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 46px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.pleaseFillThe {
+  width: 566.4px;
+  height: 70px;
+  position: relative;
+  font-size: var(--body-large-semibold-size);
+  line-height: 30px;
+  color: var(--neutral-600);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.registerFrame {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--body-normal-regular-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-small-medium);
+  color: var(--color-mediumslateblue-100);
+  text-align: center;
+}
+.secondaryBtn {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumslateblue-100);
+  padding: var(--padding-lgi) var(--padding-16xl) var(--padding-2xl)
+    var(--padding-20xl);
+  background-color: transparent;
+  border-radius: var(--br-47xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.secondaryBtn:hover {
+  background-color: var(--color-dodgerblue-400);
+  border: 1px solid var(--color-dodgerblue-100);
+  box-sizing: border-box;
+}
+.firstFrame,
+.loginRegister {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.firstFrame {
+  width: 698px;
+  align-items: flex-start;
+  gap: 32px 0;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.loginRegister {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutrals-0);
+  overflow: hidden;
+  align-items: center;
+  padding: 137px var(--padding-51xl) var(--padding-41xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 42px 0;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+  color: var(--neutral-800);
+  font-family: var(--body-small-medium);
+}
+@media screen and (max-width: 800px) {
+  .getAProject {
+    font-size: var(--font-size-8xl);
+    line-height: 37px;
+  }
+  .firstFrame {
+    gap: 32px 0;
+  }
+  .loginRegister {
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getAProject {
+    font-size: var(--display-2-size);
+    line-height: 28px;
+  }
+  .loginRegister {
+    gap: 42px 0;
+  }
+}

@@ -1,0 +1,47 @@
+.divIcon,
+.divIcon1,
+.divIcon2,
+.divIcon3,
+.divIcon4,
+.divIcon5,
+.divIcon6,
+.divIcon7 {
+  height: 158.4px;
+  width: 489px;
+  position: relative;
+  border-radius: var(--br-493xl);
+  object-fit: cover;
+  max-width: 100%;
+}
+.mainpageInner,
+.newNameParent,
+.newNameParentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.newNameParent {
+  width: 2031px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 64px 20.2px;
+  min-height: 380px;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.mainpageInner,
+.newNameParentWrapper {
+  padding: 0;
+  box-sizing: border-box;
+}
+.newNameParentWrapper {
+  width: 1975px;
+  justify-content: flex-start;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.mainpageInner {
+  align-self: stretch;
+  justify-content: flex-end;
+  max-width: 100%;
+}

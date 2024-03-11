@@ -1,0 +1,42 @@
+.enterYourUsername,
+.inputRectangle {
+  position: relative;
+}
+.inputRectangle {
+  border: 1px solid var(--color-dodgerblue-200);
+  outline: 0;
+  background-color: var(--neutrals-0);
+  align-self: stretch;
+  height: 57px;
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.usernameOrEmail {
+  width: 302px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 19px;
+  left: 25px;
+  font-size: var(--body-small-regular-size);
+  font-weight: 300;
+  color: var(--color-gray-1300);
+  display: inline-block;
+  z-index: 1;
+}
+.enterYourUsernameOrEmailAParent {
+  align-self: stretch;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 18px 0;
+  text-align: left;
+  font-size: var(--body-normal-regular-size);
+  color: var(--color-black1);
+  font-family: var(--body-small-medium);
+}
