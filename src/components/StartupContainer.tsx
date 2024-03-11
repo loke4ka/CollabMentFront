@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./StartupContainer.module.css";
+import { Link } from 'react-router-dom';
 
 const StartupContainer: FunctionComponent = () => {
   return (
@@ -46,16 +47,16 @@ const StartupContainer: FunctionComponent = () => {
         </div>
         <div className={styles.logoText}>
           <div className={styles.lineSeparator}>
-            <a href="/login-register">
+            <Link to="/login-register">
             <button className={styles.imageWithText}>
               <div className={styles.heading3}>Sign in</div>
             </button>
-            </a>
-            <a href="/signup">
+            </Link>
+            <Link to="/signup">
             <button className={styles.imageWithText1}>
               <div className={styles.heading31}>Get started</div>
             </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
