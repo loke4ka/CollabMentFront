@@ -33,8 +33,8 @@ const LoginRegister: FunctionComponent = () => {
 
         console.log('Data saved to localStorage:', localStorage.getItem('username'), localStorage.getItem('userToken'));
 
-        // window.location.href = '/profile' + `/${username}`;
-        return redirect('/profile' + `/${username}`);
+        window.location.href = '/profile' + `/${username}`;
+        // return redirect('/profile' + `/${username}`);
 
       } else {
         console.log('Authentication failed');
