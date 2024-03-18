@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styles from './UserSelectionModal.module.css';
 
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://loke4ka.pythonanywhere.com';
 
 interface User {
   id: string;

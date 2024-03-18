@@ -3,9 +3,9 @@ import styles from "./NewArticle.module.css";
 
 
 const username = localStorage.getItem('username');
-const Url = 'http://127.0.0.1:8000/';
+const Url = 'https://loke4ka.pythonanywhere.com/';
 
-const API_URL = 'http://127.0.0.1:8000/api/user/profile';
+const API_URL = 'https://loke4ka.pythonanywhere.com/api/user/profile';
 
 interface userData{
   username: string;
