@@ -152,7 +152,7 @@ if (!userData) {
             <div className={styles.fastAccessFrame}>
               <div className={styles.languageFrame}>
                 <div className={styles.tablersteam}>
-                  <h1 className={styles.ayaGazizova1}>Test Test</h1>
+                  <h1 className={styles.ayaGazizova1}>{userData?.first_name} {userData?.last_name}</h1>
                   <div className={styles.ayaGazizova2}>@{username}</div>
                 </div>
                 <div className={styles.additionalDetailsButton}>
