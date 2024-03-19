@@ -3,7 +3,7 @@ import Component1 from "./Component1";
 import styles from "./FrameNav.module.css";
 import axios from 'axios';
 
-const UrlToView = 'http://127.0.0.1:8000/api'
+const UrlToView = 'https://loke4ka.pythonanywhere.com/api'
 
 const FrameNav: FunctionComponent = () => {
 

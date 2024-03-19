@@ -2,7 +2,7 @@ import { FunctionComponent, useState, useEffect } from "react";
 import styles from "./Photo.module.css";
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:8000/api';
+const API_URL = 'https://loke4ka.pythonanywhere.com/api';
 
 interface User {
   id: number;
