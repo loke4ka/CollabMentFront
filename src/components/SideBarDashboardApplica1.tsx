@@ -81,7 +81,7 @@ useEffect(() => {
             <h3 className={styles.collabment}>Collabment</h3>
           </div>
         </div>
-        <div className={styles.iconInput}>
+        {/* <div className={styles.iconInput}>
           <div className={styles.frameWorkExperience}>
             <img
               className={styles.icon}
@@ -125,7 +125,7 @@ useEffect(() => {
             </div>
             <div className={styles.iconKazakhstan} />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.framePersonalqualities}>
         <div className={styles.settings}>SETTINGS</div>

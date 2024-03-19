@@ -63,7 +63,7 @@
 .rectangleQuestionsHelp {
   position: absolute;
   top: 0;
-  left: -6px;
+  left: -126px;
   /*left 0 */
   border-radius: var(--br-mini);
   width: 850px; 
@@ -94,8 +94,8 @@
 }
 
 .userAvatar{
-  margin-left: -10px;
-  margin-top: -15px;
+  margin-left: -140px;
+  margin-top: -65px;
   position: absolute;
   top: 215px;
   left: 25px;

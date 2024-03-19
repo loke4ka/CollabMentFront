@@ -1,12 +1,14 @@
 import { FunctionComponent, useEffect, useState } from "react";
 import AdditionalDetails from "./AdditionalDetails";
 import styles from "./ProfileMain.module.css";
-import { Link } from 'react-router-dom';
+import { Link, redirect, useNavigation } from 'react-router-dom';
+import axios from "axios";
 
 
 const API_URL = 'https://loke4ka.pythonanywhere.com/api/user/profile';
 const Url = 'https://loke4ka.pythonanywhere.com/';
 
+const UrlToView = 'http://127.0.0.1:8000/api'
 
 interface UserData {
   username: string;
@@ -32,10 +34,31 @@ interface guestUserProps {
 
 const AyaGazizova: FunctionComponent<guestUserProps> = ({ username }) => {
 
+
+
   const [userData, setUserData] = useState<UserData | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const [userPofileData, setUserPofileData] = useState<userPofileData | null>(null);
+  const viewerUsername = localStorage.getItem('username'); 
+
+  useEffect(() => {
+    const increaseProfileView = async () => {
+
+      try {
+          await axios.post(UrlToView + '/profile/view/increase/', {
+              viewed_profile_username: username, // Передаем username того, чей профиль просматриваем
+              viewer_username: viewerUsername // Передаем username того, кто просматривает профиль 
+          });
+
+          console.log('Profile view increased successfully');
+      } catch (error) {
+          console.error('Error increasing profile view:', error);
+      }
+  };
+  increaseProfileView();
+
+}, [username]);
 
   const getUserData = async (username: any) => {
     try {
@@ -114,9 +137,9 @@ if (!userData) {
             <div className={styles.statisticsFrameChild} />
             <div className={styles.ellipse} />
             <div className={styles.frameComment}>
-              <div className={styles.retweetFrame}>
+              {/* <div className={styles.retweetFrame}>
                 <div className={styles.editProfile}>Edit profile</div>
-              </div>
+              </div> */}
               <div className={styles.shareFrame}>
                 <div className={styles.rectangleQuestionsHelp}>
                   <img
@@ -208,14 +231,16 @@ if (!userData) {
                   </div>
                 </div>
                 <div className={styles.tablersteamLogoCollInstance}>
-                  <button className={styles.button}>
+                  {/* <button className={styles.button}>
                     <div className={styles.child} />
                     <div className={styles.toSetUp}>To set up a contact</div>
-                  </button>
+                  </button> */}
+                  <a href="/chat">
                   <button className={styles.button1}>
                     <div className={styles.item} />
                     <div className={styles.sendAMessage}>Send a message</div>
                   </button>
+                  </a>
                 </div>
                 <div className={styles.languageFrameInner}>
                   <div className={styles.aboutParent}>

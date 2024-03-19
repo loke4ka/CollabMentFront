@@ -408,6 +408,7 @@
 .topnavline {
   align-self: stretch;
   align-items: center;
+  margin-top: 270px;
   gap: 24px 0;
   font-size: var(--body-large-semibold-size);
 }
@@ -426,6 +427,7 @@
   font-size: var(--font-size-5xl);
   color: var(--color-black1);
   font-family: var(--body-normal-regular);
+  height: 1200px;
 }
 @media screen and (max-width: 950px) {
   .sideBarDashboardApplica {

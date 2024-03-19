@@ -1,11 +1,56 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useState, useEffect } from "react";
 import styles from "./Photo.module.css";
+import axios from 'axios';
+
+const API_URL = 'http://127.0.0.1:8000/api';
+
+interface User {
+  id: number;
+  username: string;
+
+}
 
 const Photo: FunctionComponent = () => {
+    const [users, setUsers] = useState<User[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    const viewerUsername = localStorage.getItem('username');
+
+    useEffect(() => {
+    const fetchUsers = async () => {
+        try {
+            const response = await axios.get(API_URL + '/users');
+            setUsers(response.data);
+            setLoading(false);
+        } catch (error) {
+            console.error('Error fetching users:', error);
+        }
+    };
+
+    fetchUsers();
+}, []);
+
+const addFriend = async (friendUsername: string) => {
+  if (!viewerUsername) {
+      console.error('Viewer username not found in localStorage.');
+      return;
+  }
+
+  console.log('Friend username:', friendUsername);
+  console.log('Viewer username:', viewerUsername);
+  
+  try {
+      await axios.post(API_URL + `/friend/add/`, { friend_username: friendUsername , username: viewerUsername });
+      alert('User added to friends!');
+  } catch (error) {
+      console.error('Error adding friend:', error);
+  }
+};
+
   return (
     <section className={styles.photo}>
       <div className={styles.lineSeparator}>
-        <div className={styles.navigation}>
+        {/* <div className={styles.navigation}>
           <div className={styles.navigationChild} />
           <div className={styles.frameHeyISawYourWorks}>
             <div className={styles.acceptDecline}>
@@ -14,8 +59,8 @@ const Photo: FunctionComponent = () => {
             </div>
             <b className={styles.rectangleNavbarFooter}>1,038</b>
           </div>
-          <div className={styles.frameConnections} />
-          <div className={styles.lineSep}>
+          {/* <div className={styles.frameConnections} /> */}
+          {/* <div className={styles.lineSep}>
             <div className={styles.navigationCommunityGuideline}>
               <div className={styles.connectionFrame}>
                 <div className={styles.rootFrame}>
@@ -28,10 +73,10 @@ const Photo: FunctionComponent = () => {
                 <div className={styles.text} />
               </div>
             </div>
-          </div>
-          <div className={styles.frameConnections1} />
-          <div className={styles.line} />
-          <div className={styles.frameConnections2}>
+          </div> */}
+          {/* <div className={styles.frameConnections1} />
+          <div className={styles.line} /> */}
+          {/* <div className={styles.frameConnections2}>
             <div className={styles.lineLineLineParent}>
               <div className={styles.lineLineLine}>
                 <img
@@ -43,8 +88,8 @@ const Photo: FunctionComponent = () => {
               </div>
               <div className={styles.teammates}>Teammates</div>
             </div>
-          </div>
-          <div className={styles.frameConnections3} />
+          </div> */}
+          {/* <div className={styles.frameConnections3} />
           <div className={styles.frameConnections4}>
             <div className={styles.frameParent}>
               <div className={styles.usersWrapper}>
@@ -55,8 +100,8 @@ const Photo: FunctionComponent = () => {
               </div>
               <b className={styles.text1}>6</b>
             </div>
-          </div>
-          <div className={styles.frameConnections5} />
+          </div> */}
+          {/* <div className={styles.frameConnections5} />
           <div className={styles.frameConnections6}>
             <div className={styles.frameGroup}>
               <div className={styles.layersWrapper}>
@@ -72,8 +117,8 @@ const Photo: FunctionComponent = () => {
               </div>
               <b className={styles.b}>28</b>
             </div>
-          </div>
-          <div className={styles.frameConnections7} />
+          </div> */}
+          {/* <div className={styles.frameConnections7} />
           <div className={styles.frameConnections8}>
             <div className={styles.frameContainer}>
               <div className={styles.hashWrapper}>
@@ -89,11 +134,11 @@ const Photo: FunctionComponent = () => {
               </div>
               <b className={styles.b1}>8</b>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div> */}
         <div className={styles.frameDiv}>
           <div className={styles.frameParent1}>
-            <div className={styles.frameParent2}>
+            {/* <div className={styles.frameParent2}>
               <button className={styles.frame}>
                 <div className={styles.frameChild} />
                 <div className={styles.received}>Received</div>
@@ -101,14 +146,14 @@ const Photo: FunctionComponent = () => {
               <button className={styles.frame1}>
                 <div className={styles.frameItem} />
                 <div className={styles.sent}>sent</div>
-              </button>
-            </div>
+              </button> 
+            </div> */}
             <div className={styles.comma}>
               <div className={styles.youHave2NewConnectionsParent}>
                 <div className={styles.youHave2Container}>
                   <span>{`you have `}</span>
                   <span className={styles.newConnections}>
-                    2 new connections
+                    2 connections
                   </span>
                 </div>
                 <div className={styles.youhavenewconnections}>
@@ -121,6 +166,20 @@ const Photo: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.div}>
+          {loading ? (
+                <p>Loading...</p>
+            ) : (
+                <ul>
+                    {users.map(user => (
+                        <li key={user.id}>
+                            <span>{user.username}</span>
+                            <button onClick={() => addFriend(user.username)} className={styles.button}>Add to Friends</button>
+                        </li>
+                    ))}
+                </ul>
+            )}
+          </div>
+          {/* <div className={styles.div}>
             <div className={styles.child} />
             <div className={styles.footer}>
               <div className={styles.connectionFrame1}>
@@ -158,10 +217,10 @@ const Photo: FunctionComponent = () => {
                 <div className={styles.decline}>Decline</div>
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className={styles.footer1}>
+      {/* <div className={styles.footer1}>
         <div className={styles.frameFrameParent}>
           <div className={styles.frameFrame}>
             <div className={styles.lineAndFrame} />
@@ -211,7 +270,7 @@ const Photo: FunctionComponent = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

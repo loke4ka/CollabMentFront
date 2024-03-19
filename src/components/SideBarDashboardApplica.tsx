@@ -87,7 +87,7 @@ const SideBarDashboardApplica: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.frameGroup}>
-          <div className={styles.iconParent}>
+          {/* <div className={styles.iconParent}>
             <img
               className={styles.icon}
               loading="eager"
@@ -131,7 +131,7 @@ const SideBarDashboardApplica: FunctionComponent = () => {
                 <div className={styles.settings}>SETTINGS</div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className={styles.mainmenuframe}>
             <button className={styles.menu}>
               <div className={styles.sidebarMenu}>

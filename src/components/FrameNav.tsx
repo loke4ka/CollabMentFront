@@ -1,7 +1,29 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useState, useEffect } from "react";
 import Component1 from "./Component1";
 import styles from "./FrameNav.module.css";
+import axios from 'axios';
+
+const UrlToView = 'http://127.0.0.1:8000/api'
+
 const FrameNav: FunctionComponent = () => {
+
+  const username = localStorage.getItem('username');
+
+  const [viewsCount, setViewsCount] = useState(null);
+
+    useEffect(() => {
+        const fetchViewsCount = async () => {
+            try {
+                const response = await axios.get(UrlToView + `/profile/views/count/${username}/`);
+                setViewsCount(response.data.profile_views_count);
+            } catch (error) {
+                console.error('Error fetching profile views count:', error);
+            }
+        };
+
+        fetchViewsCount();
+    }, [username]);
+
   return (
     <section className={styles.frameNav}>
       
@@ -15,9 +37,9 @@ const FrameNav: FunctionComponent = () => {
               <div className={styles.rectangle1} />
             </div>
             <div className={styles.notificationSettingsWrapper}>
-              <div className={styles.notificationSettings}>
+              {/* <div className={styles.notificationSettings}>
                 Notification settings
-              </div>
+              </div> */}
             </div>
           </div>
           <div className={styles.dashboard}>
@@ -25,28 +47,28 @@ const FrameNav: FunctionComponent = () => {
             <div className={styles.frameParent}>
               <div className={styles.yourDashboardParent}>
                 <div className={styles.yourDashboard}>your dashboard</div>
-                <div className={styles.goToStats}>go to stats</div>
+                {/* <div className={styles.goToStats}>go to stats</div> */}
               </div>
               <div className={styles.earlier} />
             </div>
             <div className={styles.dashboardInner}>
               <div className={styles.parent}>
-                <div className={styles.div2}>367</div>
-                <div className={styles.viewsToday}>views today</div>
+                <div className={styles.div2}>{viewsCount}</div>
+                <div className={styles.viewsToday}>Views of profile</div>
               </div>
             </div>
             <div className={styles.frameDiv}>
-              <div className={styles.group}>
+              {/* <div className={styles.group}>
                 <div className={styles.div3}>15</div>
                 <div className={styles.postsViews}>posts views</div>
-              </div>
+              </div> */}
             </div>
             <div className={styles.dashboardInner1}>
               <div className={styles.container}>
-                <div className={styles.div4}>9</div>
+                {/* <div className={styles.div4}>9</div>
                 <div className={styles.searchAppereances}>
                   search appereances
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -101,7 +123,7 @@ const FrameNav: FunctionComponent = () => {
               />
             </div>
           </div>
-          <div className={styles.groupedFrames1}>
+          {/* <div className={styles.groupedFrames1}>
             <div className={styles.frameContainer}>
               <div className={styles.lineWrapper}>
                 <div className={styles.line6} />
@@ -111,7 +133,7 @@ const FrameNav: FunctionComponent = () => {
                 <div className={styles.line7} />
               </div>
             </div>
-            <div className={styles.div5}>
+             <div className={styles.div5}>
               <div className={styles.child} />
               <div className={styles.inner}>
                 <div className={styles.groupParent}>
@@ -146,8 +168,8 @@ const FrameNav: FunctionComponent = () => {
                 alt=""
                 src="/morehorizontal.svg"
               />
-            </div>
-          </div>
+            </div> 
+          </div> */}
         </div>
       </div>
     </section>

@@ -52,16 +52,20 @@ const Navigation1: FunctionComponent = () => {
         </div>
         <div className={styles.rectangle}>
           <div className={styles.logoColl}>
+          <a href="/" className={stylesAnimation.ProfileLink} style={{alignContent: "center", justifyContent: "center"}}>
             <div className={styles.excitingNews}>
               <img
                 className={styles.tablersteamIcon}
+                style={{alignContent: "center", justifyContent: "center", marginLeft: "10px"}}
                 loading="eager"
                 alt=""
                 src="/tablersteam1.svg"
               />
             </div>
             <b className={styles.collabment}>COLLABMENT</b>
+            </a>
           </div>
+         
         </div>
         <div className={styles.like}>
           <div className={styles.items}>
@@ -103,7 +107,7 @@ const Navigation1: FunctionComponent = () => {
               </div>
               </Link>
             </div>
-            <div className={styles.statistics2}>
+            {/* <div className={styles.statistics2}>
             <Link to="/network" className={stylesAnimation.NavLink}>
               <div className={styles.active2}>
                 <div className={styles.activeChild1} />
@@ -128,7 +132,7 @@ const Navigation1: FunctionComponent = () => {
                 <div className={styles.jobs1}>jobs</div>
               </div>
               </Link>
-            </div>
+            </div> */}
             <div className={styles.statistics3}>
             <Link to="/chat" className={stylesAnimation.NavLink}>
 
@@ -186,7 +190,7 @@ const Navigation1: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.language}>
+        {/* <div className={styles.language}>
           <div className={styles.search}>
             <button className={styles.frameAboutPosts}>
               <div className={styles.additionalDetailsButton} />
@@ -197,7 +201,7 @@ const Navigation1: FunctionComponent = () => {
             </button>
             <div className={styles.languagesWebsite} />
           </div>
-        </div>
+        </div> */}
         <div className={styles.profileWrapper}>
           <div className={styles.profile}>
             <div className={styles.profileChild} />
